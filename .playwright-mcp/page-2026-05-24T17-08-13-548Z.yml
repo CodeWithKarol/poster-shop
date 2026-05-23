@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "PosterShop" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Koszyk (0)" [ref=e7] [cursor=pointer]:
+          - /url: /checkout
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Sycylijska uliczka - tło hero" [ref=e12]
+        - generic [ref=e15]:
+          - heading "Autorskie plakaty do druku. Przenieś słońce Południa na swoją ścianę." [level=1] [ref=e17]:
+            - text: Autorskie plakaty do druku.
+            - text: Przenieś słońce Południa na swoją ścianę.
+          - paragraph [ref=e18]: Nie musisz czekać na kolejne wakacje, by poczuć ten wyjątkowy, leniwy klimat. Odkryj kolekcję 10 autorskich fotografii z Włoch, Grecji i Hiszpanii, przygotowanych jako cyfrowe plakaty na ścianę do druku. Pobierz natychmiast, wydrukuj lokalnie i odmień swoje wnętrze jeszcze dziś.
+          - generic [ref=e19]:
+            - button "Zobacz słoneczną kolekcję" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: Zobacz słoneczną kolekcję
+              - img
+            - paragraph [ref=e22]: Pliki cyfrowe wysokiej rozdzielczości – bez kosztów dostawy, gotowe w 60 sekund.
+      - generic [ref=e23]:
+        - heading "Dlaczego te ujęcia odmienią Twój dom?" [level=2] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - img [ref=e28]
+            - heading "100% autorska fotografia" [level=3] [ref=e31]
+            - paragraph [ref=e32]: Każdy plakat to zatrzymany w kadrze, autentyczny moment z moich podróży. Nie znajdziesz ich w bankach zdjęć ani masowych sieciówkach. To unikalne kadry – od wąskich, sycylijskich uliczek pachnących kawą, po głęboki błękit greckiego nieba.
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - heading "Klimat jak z najpiękniejszych profili na Pinterest" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Minimalistyczne formy, ciepłe, pastelowe barwy i naturalne światło. Te plakaty do salonu, sypialni czy biura idealnie wpisują się w nowoczesne, jasne wnętrza, dodając im elegancji i wakacyjnego luzu.
+          - generic [ref=e43]:
+            - img [ref=e45]
+            - heading "Drukujesz tak, jak lubisz" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Kupujesz raz, zyskujesz plik na zawsze. Otrzymujesz cyfrowy format doskonałej jakości, który możesz wydrukować na dowolnym materiale – od klasycznego papieru plakatowego po płótno, i w dokładnie takim rozmiarze, jakiego potrzebuje Twoja rama.
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Kolekcja Premierowa" [level=2] [ref=e53]
+          - paragraph [ref=e54]: 10 unikatowych plakatów do Twojego wnętrza
+        - generic [ref=e55]:
+          - link "Sycylijska Uliczka Zobacz szczegóły Włochy Do Salonu Klimat Retro Sycylijska Uliczka Marco Rossi 85,00 zł" [ref=e56] [cursor=pointer]:
+            - /url: /plakat/sycylijska-uliczka
+            - generic [ref=e57]:
+              - img "Sycylijska Uliczka" [ref=e58]
+              - button "Zobacz szczegóły" [ref=e60]
+            - generic [ref=e61]:
+              - generic [ref=e62]: Włochy
+              - generic [ref=e63]: Do Salonu
+              - generic [ref=e64]: Klimat Retro
+            - generic [ref=e65]:
+              - heading "Sycylijska Uliczka" [level=3] [ref=e66]
+              - paragraph [ref=e67]: Marco Rossi
+              - paragraph [ref=e68]: 85,00 zł
+          - link "Greckie Morze Zobacz szczegóły Grecja Do Sypialni Morze & Plaża Greckie Morze Sofia Papadopoulos 95,00 zł" [ref=e69] [cursor=pointer]:
+            - /url: /plakat/greckie-morze
+            - generic [ref=e70]:
+              - img "Greckie Morze" [ref=e71]
+              - button "Zobacz szczegóły" [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e75]: Grecja
+              - generic [ref=e76]: Do Sypialni
+              - generic [ref=e77]: Morze & Plaża
+            - generic [ref=e78]:
+              - heading "Greckie Morze" [level=3] [ref=e79]
+              - paragraph [ref=e80]: Sofia Papadopoulos
+              - paragraph [ref=e81]: 95,00 zł
+          - link "Hiszpańska Architektura Zobacz szczegóły Hiszpania Do Salonu Architektura Hiszpańska Architektura Juan Rodriguez 88,00 zł" [ref=e82] [cursor=pointer]:
+            - /url: /plakat/hiszpanska-architektura
+            - generic [ref=e83]:
+              - img "Hiszpańska Architektura" [ref=e84]
+              - button "Zobacz szczegóły" [ref=e86]
+            - generic [ref=e87]:
+              - generic [ref=e88]: Hiszpania
+              - generic [ref=e89]: Do Salonu
+              - generic [ref=e90]: Architektura
+            - generic [ref=e91]:
+              - heading "Hiszpańska Architektura" [level=3] [ref=e92]
+              - paragraph [ref=e93]: Juan Rodriguez
+              - paragraph [ref=e94]: 88,00 zł
+          - link "Włoska Dolina Zobacz szczegóły Włochy Do Salonu Krajobraz Włoska Dolina Marco Rossi 105,00 zł" [ref=e95] [cursor=pointer]:
+            - /url: /plakat/włoska-dolina
+            - generic [ref=e96]:
+              - img "Włoska Dolina" [ref=e97]
+              - button "Zobacz szczegóły" [ref=e99]
+            - generic [ref=e100]:
+              - generic [ref=e101]: Włochy
+              - generic [ref=e102]: Do Salonu
+              - generic [ref=e103]: Krajobraz
+            - generic [ref=e104]:
+              - heading "Włoska Dolina" [level=3] [ref=e105]
+              - paragraph [ref=e106]: Marco Rossi
+              - paragraph [ref=e107]: 105,00 zł
+          - link "Greckie Wyspy Zobacz szczegóły Grecja Do Kuchni Klimat Retro Greckie Wyspy Sofia Papadopoulos 78,00 zł" [ref=e108] [cursor=pointer]:
+            - /url: /plakat/greckie-wyspy
+            - generic [ref=e109]:
+              - img "Greckie Wyspy" [ref=e110]
+              - button "Zobacz szczegóły" [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e114]: Grecja
+              - generic [ref=e115]: Do Kuchni
+              - generic [ref=e116]: Klimat Retro
+            - generic [ref=e117]:
+              - heading "Greckie Wyspy" [level=3] [ref=e118]
+              - paragraph [ref=e119]: Sofia Papadopoulos
+              - paragraph [ref=e120]: 78,00 zł
+          - link "Włoskie Ogrody Zobacz szczegóły Włochy Do Sypialni Natura Włoskie Ogrody Marco Rossi 92,00 zł" [ref=e121] [cursor=pointer]:
+            - /url: /plakat/włoskie-ogrody
+            - generic [ref=e122]:
+              - img "Włoskie Ogrody" [ref=e123]
+              - button "Zobacz szczegóły" [ref=e125]
+            - generic [ref=e126]:
+              - generic [ref=e127]: Włochy
+              - generic [ref=e128]: Do Sypialni
+              - generic [ref=e129]: Natura
+            - generic [ref=e130]:
+              - heading "Włoskie Ogrody" [level=3] [ref=e131]
+              - paragraph [ref=e132]: Marco Rossi
+              - paragraph [ref=e133]: 92,00 zł
+          - link "Morska Fala Zobacz szczegóły Grecja Do Salonu Morze & Plaża Morska Fala Sofia Papadopoulos 86,00 zł" [ref=e134] [cursor=pointer]:
+            - /url: /plakat/morska-fala
+            - generic [ref=e135]:
+              - img "Morska Fala" [ref=e136]
+              - button "Zobacz szczegóły" [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Grecja
+              - generic [ref=e141]: Do Salonu
+              - generic [ref=e142]: Morze & Plaża
+            - generic [ref=e143]:
+              - heading "Morska Fala" [level=3] [ref=e144]
+              - paragraph [ref=e145]: Sofia Papadopoulos
+              - paragraph [ref=e146]: 86,00 zł
+          - link "Zachód Słońca nad Morzem Zobacz szczegóły Hiszpania Do Sypialni Zachód Słońca Zachód Słońca nad Morzem Juan Rodriguez 98,00 zł" [ref=e147] [cursor=pointer]:
+            - /url: /plakat/zachod-slonca-nad-morzem
+            - generic [ref=e148]:
+              - img "Zachód Słońca nad Morzem" [ref=e149]
+              - button "Zobacz szczegóły" [ref=e151]
+            - generic [ref=e152]:
+              - generic [ref=e153]: Hiszpania
+              - generic [ref=e154]: Do Sypialni
+              - generic [ref=e155]: Zachód Słońca
+            - generic [ref=e156]:
+              - heading "Zachód Słońca nad Morzem" [level=3] [ref=e157]
+              - paragraph [ref=e158]: Juan Rodriguez
+              - paragraph [ref=e159]: 98,00 zł
+          - link "Winnicy Włoskie Zobacz szczegóły Włochy Do Kuchni Krajobraz Winnicy Włoskie Marco Rossi 87,00 zł" [ref=e160] [cursor=pointer]:
+            - /url: /plakat/winnicy-wloskie
+            - generic [ref=e161]:
+              - img "Winnicy Włoskie" [ref=e162]
+              - button "Zobacz szczegóły" [ref=e164]
+            - generic [ref=e165]:
+              - generic [ref=e166]: Włochy
+              - generic [ref=e167]: Do Kuchni
+              - generic [ref=e168]: Krajobraz
+            - generic [ref=e169]:
+              - heading "Winnicy Włoskie" [level=3] [ref=e170]
+              - paragraph [ref=e171]: Marco Rossi
+              - paragraph [ref=e172]: 87,00 zł
+          - link "Lazurowe Wybrzeże Zobacz szczegóły Francja Do Salonu Morze & Plaża Lazurowe Wybrzeże Juan Rodriguez 102,00 zł" [ref=e173] [cursor=pointer]:
+            - /url: /plakat/lazurowe-wybrzeze
+            - generic [ref=e174]:
+              - img "Lazurowe Wybrzeże" [ref=e175]
+              - button "Zobacz szczegóły" [ref=e177]
+            - generic [ref=e178]:
+              - generic [ref=e179]: Francja
+              - generic [ref=e180]: Do Salonu
+              - generic [ref=e181]: Morze & Plaża
+            - generic [ref=e182]:
+              - heading "Lazurowe Wybrzeże" [level=3] [ref=e183]
+              - paragraph [ref=e184]: Juan Rodriguez
+              - paragraph [ref=e185]: 102,00 zł
+  - contentinfo [ref=e186]:
+    - paragraph [ref=e188]: © 2026 Poster Shop. Autorskie Fotografie z Południa Europy.
+  - button "Open Next.js Dev Tools" [ref=e194] [cursor=pointer]:
+    - img [ref=e195]

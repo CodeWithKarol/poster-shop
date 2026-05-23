@@ -1,0 +1,35 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "next-devtools": {
+      "command": ["npx", "-y", "next-devtools-mcp@latest"],
+      "enabled": true,
+      "type": "local"
+    },
+    "shadcn": {
+      "command": ["npx", "shadcn@latest", "mcp"],
+      "enabled": true,
+      "type": "local"
+    },
+    "vercel": {
+      "command": ["npx", "mcp-remote"],
+      "url": "https://mcp.vercel.com",
+      "enabled": true,
+      "type": "remote"
+    },
+    "stripe": {
+      "command": ["npx", "mcp-remote"],
+      "enabled": true,
+      "type": "remote",
+      "url": "https://mcp.stripe.com"
+    },
+    "resend": {
+      "type": "local",
+      "command": ["npx", "-y", "resend-mcp"],
+      "enabled": true,
+      "environment": {
+        "RESEND_API_KEY": "re_GCBmPHNe_6Xn5TQj35sPRg9sXFbJmDUEd"
+      }
+    }
+  }
+}
