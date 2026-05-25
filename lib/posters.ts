@@ -52,7 +52,7 @@ export const posters: Poster[] = [
   },
   {
     id: "IMG_3200",
-    slug: "plakat-na-sciane-wloska-swiatlocienie",
+    slug: "plakat-na-sciane-wloskie-swiatlocienie",
     title: "Plakat na ścianę – Włoskie Światłocienie",
     subtitle: "Gra cieni na rozgrzanej fasadzie",
     artist: "Karol",
