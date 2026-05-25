@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "PosterShop" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Koszyk (0)" [ref=e7] [cursor=pointer]:
+          - /url: /checkout
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Sycylijska uliczka - tło hero" [ref=e12]
+        - generic [ref=e15]:
+          - heading "Autorskie plakaty na ścianę z południa Europy" [level=1] [ref=e17]:
+            - text: Autorskie plakaty
+            - text: na ścianę z południa Europy
+          - paragraph [ref=e18]: Klimatyczne plakaty do salonu – Twoje ulubione wakacje przez cały rok
+          - generic [ref=e19]:
+            - paragraph [ref=e20]: Dlaczego My?
+            - list [ref=e21]:
+              - listitem [ref=e22]:
+                - img [ref=e23]
+                - generic [ref=e25]: 100% autorskie fotografie z Włoch, Grecji i Hiszpanii
+              - listitem [ref=e26]:
+                - img [ref=e27]
+                - generic [ref=e29]: Drukowane na zamówienie na ekologicznym papierze premium
+              - listitem [ref=e30]:
+                - img [ref=e31]
+                - generic [ref=e33]: Bezpłatna dostawa po Polsce na każde zamówienie
+          - button "Zobacz kolekcję premierową" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: Zobacz kolekcję premierową
+            - img
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - heading "Kolekcja Premierowa" [level=2] [ref=e39]
+          - paragraph [ref=e40]: 10 unikatowych plakatów do Twojego wnętrza
+        - generic [ref=e41]:
+          - link "Sycylijska Uliczka Zobacz szczegóły Włochy Do Salonu Klimat Retro Sycylijska Uliczka Marco Rossi 85,00 zł" [ref=e42] [cursor=pointer]:
+            - /url: /plakat/sycylijska-uliczka
+            - generic [ref=e43]:
+              - img "Sycylijska Uliczka" [ref=e44]
+              - button "Zobacz szczegóły" [ref=e46]
+            - generic [ref=e47]:
+              - generic [ref=e48]: Włochy
+              - generic [ref=e49]: Do Salonu
+              - generic [ref=e50]: Klimat Retro
+            - generic [ref=e51]:
+              - heading "Sycylijska Uliczka" [level=3] [ref=e52]
+              - paragraph [ref=e53]: Marco Rossi
+              - paragraph [ref=e54]: 85,00 zł
+          - link "Greckie Morze Zobacz szczegóły Grecja Do Sypialni Morze & Plaża Greckie Morze Sofia Papadopoulos 95,00 zł" [ref=e55] [cursor=pointer]:
+            - /url: /plakat/greckie-morze
+            - generic [ref=e56]:
+              - img "Greckie Morze" [ref=e57]
+              - button "Zobacz szczegóły" [ref=e59]
+            - generic [ref=e60]:
+              - generic [ref=e61]: Grecja
+              - generic [ref=e62]: Do Sypialni
+              - generic [ref=e63]: Morze & Plaża
+            - generic [ref=e64]:
+              - heading "Greckie Morze" [level=3] [ref=e65]
+              - paragraph [ref=e66]: Sofia Papadopoulos
+              - paragraph [ref=e67]: 95,00 zł
+          - link "Hiszpańska Architektura Zobacz szczegóły Hiszpania Do Salonu Architektura Hiszpańska Architektura Juan Rodriguez 88,00 zł" [ref=e68] [cursor=pointer]:
+            - /url: /plakat/hiszpanska-architektura
+            - generic [ref=e69]:
+              - img "Hiszpańska Architektura" [ref=e70]
+              - button "Zobacz szczegóły" [ref=e72]
+            - generic [ref=e73]:
+              - generic [ref=e74]: Hiszpania
+              - generic [ref=e75]: Do Salonu
+              - generic [ref=e76]: Architektura
+            - generic [ref=e77]:
+              - heading "Hiszpańska Architektura" [level=3] [ref=e78]
+              - paragraph [ref=e79]: Juan Rodriguez
+              - paragraph [ref=e80]: 88,00 zł
+          - link "Włoska Dolina Zobacz szczegóły Włochy Do Salonu Krajobraz Włoska Dolina Marco Rossi 105,00 zł" [ref=e81] [cursor=pointer]:
+            - /url: /plakat/італійska-dolina
+            - generic [ref=e82]:
+              - img "Włoska Dolina" [ref=e83]
+              - button "Zobacz szczegóły" [ref=e85]
+            - generic [ref=e86]:
+              - generic [ref=e87]: Włochy
+              - generic [ref=e88]: Do Salonu
+              - generic [ref=e89]: Krajobraz
+            - generic [ref=e90]:
+              - heading "Włoska Dolina" [level=3] [ref=e91]
+              - paragraph [ref=e92]: Marco Rossi
+              - paragraph [ref=e93]: 105,00 zł
+          - link "Greckie Wyspy Zobacz szczegóły Grecja Do Kuchni Klimat Retro Greckie Wyspy Sofia Papadopoulos 78,00 zł" [ref=e94] [cursor=pointer]:
+            - /url: /plakat/greckie-wyspy
+            - generic [ref=e95]:
+              - img "Greckie Wyspy" [ref=e96]
+              - button "Zobacz szczegóły" [ref=e98]
+            - generic [ref=e99]:
+              - generic [ref=e100]: Grecja
+              - generic [ref=e101]: Do Kuchni
+              - generic [ref=e102]: Klimat Retro
+            - generic [ref=e103]:
+              - heading "Greckie Wyspy" [level=3] [ref=e104]
+              - paragraph [ref=e105]: Sofia Papadopoulos
+              - paragraph [ref=e106]: 78,00 zł
+          - link "Włoskie Ogrody Zobacz szczegóły Włochy Do Sypialni Natura Włoskie Ogrody Marco Rossi 92,00 zł" [ref=e107] [cursor=pointer]:
+            - /url: /plakat/włoskie-ogrody
+            - generic [ref=e108]:
+              - img "Włoskie Ogrody" [ref=e109]
+              - button "Zobacz szczegóły" [ref=e111]
+            - generic [ref=e112]:
+              - generic [ref=e113]: Włochy
+              - generic [ref=e114]: Do Sypialni
+              - generic [ref=e115]: Natura
+            - generic [ref=e116]:
+              - heading "Włoskie Ogrody" [level=3] [ref=e117]
+              - paragraph [ref=e118]: Marco Rossi
+              - paragraph [ref=e119]: 92,00 zł
+          - link "Morska Fala Zobacz szczegóły Grecja Do Salonu Morze & Plaża Morska Fala Sofia Papadopoulos 86,00 zł" [ref=e120] [cursor=pointer]:
+            - /url: /plakat/morska-fala
+            - generic [ref=e121]:
+              - img "Morska Fala" [ref=e122]
+              - button "Zobacz szczegóły" [ref=e124]
+            - generic [ref=e125]:
+              - generic [ref=e126]: Grecja
+              - generic [ref=e127]: Do Salonu
+              - generic [ref=e128]: Morze & Plaża
+            - generic [ref=e129]:
+              - heading "Morska Fala" [level=3] [ref=e130]
+              - paragraph [ref=e131]: Sofia Papadopoulos
+              - paragraph [ref=e132]: 86,00 zł
+          - link "Zachód Słońca nad Morzem Zobacz szczegóły Hiszpania Do Sypialni Zachód Słońca Zachód Słońca nad Morzem Juan Rodriguez 98,00 zł" [ref=e133] [cursor=pointer]:
+            - /url: /plakat/zachodslonca-nad-morzem
+            - generic [ref=e134]:
+              - img "Zachód Słońca nad Morzem" [ref=e135]
+              - button "Zobacz szczegóły" [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e139]: Hiszpania
+              - generic [ref=e140]: Do Sypialni
+              - generic [ref=e141]: Zachód Słońca
+            - generic [ref=e142]:
+              - heading "Zachód Słońca nad Morzem" [level=3] [ref=e143]
+              - paragraph [ref=e144]: Juan Rodriguez
+              - paragraph [ref=e145]: 98,00 zł
+          - link "Winnicy Włoskie Zobacz szczegóły Włochy Do Kuchni Krajobraz Winnicy Włoskie Marco Rossi 87,00 zł" [ref=e146] [cursor=pointer]:
+            - /url: /plakat/винограда-winnicy
+            - generic [ref=e147]:
+              - img "Winnicy Włoskie" [ref=e148]
+              - button "Zobacz szczegóły" [ref=e150]
+            - generic [ref=e151]:
+              - generic [ref=e152]: Włochy
+              - generic [ref=e153]: Do Kuchni
+              - generic [ref=e154]: Krajobraz
+            - generic [ref=e155]:
+              - heading "Winnicy Włoskie" [level=3] [ref=e156]
+              - paragraph [ref=e157]: Marco Rossi
+              - paragraph [ref=e158]: 87,00 zł
+          - link "Lazurowe Wybrzeże Zobacz szczegóły Francja Do Salonu Morze & Plaża Lazurowe Wybrzeże Juan Rodriguez 102,00 zł" [ref=e159] [cursor=pointer]:
+            - /url: /plakat/lazurowe-wybrzeze
+            - generic [ref=e160]:
+              - img "Lazurowe Wybrzeże" [ref=e161]
+              - button "Zobacz szczegóły" [ref=e163]
+            - generic [ref=e164]:
+              - generic [ref=e165]: Francja
+              - generic [ref=e166]: Do Salonu
+              - generic [ref=e167]: Morze & Plaża
+            - generic [ref=e168]:
+              - heading "Lazurowe Wybrzeże" [level=3] [ref=e169]
+              - paragraph [ref=e170]: Juan Rodriguez
+              - paragraph [ref=e171]: 102,00 zł
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - heading "Jakość Premium" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Każdy plakat drukowany jest na papierze wysokiej jakości z certyfikatami ekologicznymi. Kolory odwzorowane z precyzją artystyczną.
+        - generic [ref=e178]:
+          - heading "100% Autorskie" [level=3] [ref=e179]
+          - paragraph [ref=e180]: Każda fotografia to unikat stworzony przez naszych fotografów podczas podróży po Europie. Brakstock photos, tylko oryginalne kadry.
+        - generic [ref=e181]:
+          - heading "Ekologicznie" [level=3] [ref=e182]
+          - paragraph [ref=e183]: Papier FSC-certified, ekologiczne tusze drukujące. Opakowanie biodegradowalne. Troska o planetę w każdym szczególe.
+  - contentinfo [ref=e184]:
+    - generic [ref=e185]:
+      - paragraph [ref=e186]: © 2026 Poster Shop.
+      - generic [ref=e187]:
+        - link "Instagram" [ref=e188] [cursor=pointer]:
+          - /url: "#"
+        - link "Pinterest" [ref=e189] [cursor=pointer]:
+          - /url: "#"
+      - paragraph [ref=e190]: Zaprojektowane dla Sztuki.
+  - button "Open Next.js Dev Tools" [ref=e196] [cursor=pointer]:
+    - img [ref=e197]

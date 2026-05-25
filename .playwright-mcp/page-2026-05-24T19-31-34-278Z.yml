@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "PosterShop" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Koszyk (1)" [ref=e7] [cursor=pointer]:
+          - /url: /checkout
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Sycylijska uliczka - tło hero" [ref=e12]
+        - generic [ref=e15]:
+          - heading "Autorskie plakaty do druku. Przenieś słońce Południa na swoją ścianę." [level=1] [ref=e17]:
+            - text: Autorskie plakaty do druku.
+            - text: Przenieś słońce Południa na swoją ścianę.
+          - paragraph [ref=e18]: Nie musisz czekać na kolejne wakacje, by poczuć ten wyjątkowy, leniwy klimat. Odkryj kolekcję 10 autorskich fotografii z Włoch, Grecji i Hiszpanii, przygotowanych jako cyfrowe plakaty na ścianę do druku. Pobierz natychmiast, wydrukuj lokalnie i odmień swoje wnętrze jeszcze dziś.
+          - generic [ref=e19]:
+            - button "Zobacz słoneczną kolekcję" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: Zobacz słoneczną kolekcję
+              - img
+            - paragraph [ref=e22]: Pliki cyfrowe wysokiej rozdzielczości – bez kosztów dostawy, gotowe w 60 sekund.
+      - generic [ref=e23]:
+        - heading "Dlaczego te ujęcia odmienią Twój dom?" [level=2] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - img [ref=e28]
+            - heading "100% autorska fotografia" [level=3] [ref=e31]
+            - paragraph [ref=e32]: Każdy plakat to zatrzymany w kadrze, autentyczny moment z moich podróży. Nie znajdziesz ich w bankach zdjęć ani masowych sieciówkach. To unikalne kadry – od wąskich, sycylijskich uliczek pachnących kawą, po głęboki błękit greckiego nieba.
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - heading "Klimat jak z najpiękniejszych profili na Pinterest" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Minimalistyczne formy, ciepłe, pastelowe barwy i naturalne światło. Te plakaty do salonu, sypialni czy biura idealnie wpisują się w nowoczesne, jasne wnętrza, dodając im elegancji i wakacyjnego luzu.
+          - generic [ref=e43]:
+            - img [ref=e45]
+            - heading "Drukujesz tak, jak lubisz" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Kupujesz raz, zyskujesz plik na zawsze. Otrzymujesz cyfrowy format doskonałej jakości, który możesz wydrukować na dowolnym materiale – od klasycznego papieru plakatowego po płótno, i w dokładnie takim rozmiarze, jakiego potrzebuje Twoja rama.
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Limitowana kolekcja 10 ujęć. Wybierz swój kawałek Południa." [level=2] [ref=e53]
+          - paragraph [ref=e54]: Kliknij w plakat, aby zobaczyć szczegóły, lub dodaj go od razu do koszyka. Wszystkie kadry idealnie łączą się ze sobą, tworząc spójne domowe galerie ścienne.
+        - generic [ref=e55]:
+          - link "Plakat do salonu – Słoneczna Sycylia Zobacz szczegóły Włochy Do Salonu Klimat Retro Ciepłe Tony Plakat do salonu – Słoneczna Sycylia Marco Rossi 85,00 zł" [ref=e56] [cursor=pointer]:
+            - /url: /plakat/sloneczna-sycylia
+            - generic [ref=e57]:
+              - img "Plakat do salonu – Słoneczna Sycylia" [ref=e58]
+              - button "Zobacz szczegóły" [ref=e60]
+            - generic [ref=e61]:
+              - generic [ref=e62]: Włochy
+              - generic [ref=e63]: Do Salonu
+              - generic [ref=e64]: Klimat Retro
+              - generic [ref=e65]: Ciepłe Tony
+            - generic [ref=e66]:
+              - heading "Plakat do salonu – Słoneczna Sycylia" [level=3] [ref=e67]
+              - paragraph [ref=e68]: Marco Rossi
+              - paragraph [ref=e69]: 85,00 zł
+          - link "Plakat na ścianę – Rzymskie Wakacje Zobacz szczegóły Włochy Architektura Pastelowe Barwy Ciepła Estetyka Plakat na ścianę – Rzymskie Wakacje Antonio Rossi 89,00 zł" [ref=e70] [cursor=pointer]:
+            - /url: /plakat/rzymskie-wakacje
+            - generic [ref=e71]:
+              - img "Plakat na ścianę – Rzymskie Wakacje" [ref=e72]
+              - button "Zobacz szczegóły" [ref=e74]
+            - generic [ref=e75]:
+              - generic [ref=e76]: Włochy
+              - generic [ref=e77]: Architektura
+              - generic [ref=e78]: Pastelowe Barwy
+              - generic [ref=e79]: Ciepła Estetyka
+            - generic [ref=e80]:
+              - heading "Plakat na ścianę – Rzymskie Wakacje" [level=3] [ref=e81]
+              - paragraph [ref=e82]: Antonio Rossi
+              - paragraph [ref=e83]: 89,00 zł
+          - link "Plakat do kuchni – Włoskie Espresso Zobacz szczegóły Włochy Do Kuchni Minimalizm Akcent Plakat do kuchni – Włoskie Espresso Sofia Moretti 79,00 zł" [ref=e84] [cursor=pointer]:
+            - /url: /plakat/wloskie-espresso
+            - generic [ref=e85]:
+              - img "Plakat do kuchni – Włoskie Espresso" [ref=e86]
+              - button "Zobacz szczegóły" [ref=e88]
+            - generic [ref=e89]:
+              - generic [ref=e90]: Włochy
+              - generic [ref=e91]: Do Kuchni
+              - generic [ref=e92]: Minimalizm
+              - generic [ref=e93]: Akcent
+            - generic [ref=e94]:
+              - heading "Plakat do kuchni – Włoskie Espresso" [level=3] [ref=e95]
+              - paragraph [ref=e96]: Sofia Moretti
+              - paragraph [ref=e97]: 79,00 zł
+          - link "Plakat do sypialni – Wybrzeże Amalfi Zobacz szczegóły Włochy Do Sypialni Błękit Morza Relaksacyjna Estetyka Plakat do sypialni – Wybrzeże Amalfi Giulio Marino 95,00 zł" [ref=e98] [cursor=pointer]:
+            - /url: /plakat/wybrzeze-amalfi
+            - generic [ref=e99]:
+              - img "Plakat do sypialni – Wybrzeże Amalfi" [ref=e100]
+              - button "Zobacz szczegóły" [ref=e102]
+            - generic [ref=e103]:
+              - generic [ref=e104]: Włochy
+              - generic [ref=e105]: Do Sypialni
+              - generic [ref=e106]: Błękit Morza
+              - generic [ref=e107]: Relaksacyjna Estetyka
+            - generic [ref=e108]:
+              - heading "Plakat do sypialni – Wybrzeże Amalfi" [level=3] [ref=e109]
+              - paragraph [ref=e110]: Giulio Marino
+              - paragraph [ref=e111]: 95,00 zł
+          - link "Plakat nowoczesny – Santorini Blue Hour Zobacz szczegóły Grecja Architektura Minimalizm Złota Godzina Pinterest Aesthetic Plakat nowoczesny – Santorini Blue Hour Dimitri Papadopoulos 99,00 zł" [ref=e112] [cursor=pointer]:
+            - /url: /plakat/santorini-blue-hour
+            - generic [ref=e113]:
+              - img "Plakat nowoczesny – Santorini Blue Hour" [ref=e114]
+              - button "Zobacz szczegóły" [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e118]: Grecja
+              - generic [ref=e119]: Architektura
+              - generic [ref=e120]: Minimalizm
+              - generic [ref=e121]: Złota Godzina
+              - generic [ref=e122]: Pinterest Aesthetic
+            - generic [ref=e123]:
+              - heading "Plakat nowoczesny – Santorini Blue Hour" [level=3] [ref=e124]
+              - paragraph [ref=e125]: Dimitri Papadopoulos
+              - paragraph [ref=e126]: 99,00 zł
+          - link "Plakat minimalistyczny – Greckie Słońce Zobacz szczegóły Grecja Minimalizm Detal Indygo Tekstury Plakat minimalistyczny – Greckie Słońce Yiannis Dimitriou 79,00 zł" [ref=e127] [cursor=pointer]:
+            - /url: /plakat/greckie-slonce
+            - generic [ref=e128]:
+              - img "Plakat minimalistyczny – Greckie Słońce" [ref=e129]
+              - button "Zobacz szczegóły" [ref=e131]
+            - generic [ref=e132]:
+              - generic [ref=e133]: Grecja
+              - generic [ref=e134]: Minimalizm
+              - generic [ref=e135]: Detal
+              - generic [ref=e136]: Indygo
+              - generic [ref=e137]: Tekstury
+            - generic [ref=e138]:
+              - heading "Plakat minimalistyczny – Greckie Słońce" [level=3] [ref=e139]
+              - paragraph [ref=e140]: Yiannis Dimitriou
+              - paragraph [ref=e141]: 79,00 zł
+          - link "Plakat na ścianę – Śródziemnomorski Luz Zobacz szczegóły Grecja Minimalizm Natura Cień Spokój Plakat na ścianę – Śródziemnomorski Luz Elena Kastelli 85,00 zł" [ref=e142] [cursor=pointer]:
+            - /url: /plakat/srodziemnomorski-luz
+            - generic [ref=e143]:
+              - img "Plakat na ścianę – Śródziemnomorski Luz" [ref=e144]
+              - button "Zobacz szczegóły" [ref=e146]
+            - generic [ref=e147]:
+              - generic [ref=e148]: Grecja
+              - generic [ref=e149]: Minimalizm
+              - generic [ref=e150]: Natura
+              - generic [ref=e151]: Cień
+              - generic [ref=e152]: Spokój
+            - generic [ref=e153]:
+              - heading "Plakat na ścianę – Śródziemnomorski Luz" [level=3] [ref=e154]
+              - paragraph [ref=e155]: Elena Kastelli
+              - paragraph [ref=e156]: 85,00 zł
+          - link "Plakat do salonu – Architektura Andaluzji Zobacz szczegóły Hiszpania Do Salonu Architektura Terakota Światło Plakat do salonu – Architektura Andaluzji Carmen Rodriguez 89,00 zł" [ref=e157] [cursor=pointer]:
+            - /url: /plakat/architektura-andaluzji
+            - generic [ref=e158]:
+              - img "Plakat do salonu – Architektura Andaluzji" [ref=e159]
+              - button "Zobacz szczegóły" [ref=e161]
+            - generic [ref=e162]:
+              - generic [ref=e163]: Hiszpania
+              - generic [ref=e164]: Do Salonu
+              - generic [ref=e165]: Architektura
+              - generic [ref=e166]: Terakota
+              - generic [ref=e167]: Światło
+            - generic [ref=e168]:
+              - heading "Plakat do salonu – Architektura Andaluzji" [level=3] [ref=e169]
+              - paragraph [ref=e170]: Carmen Rodriguez
+              - paragraph [ref=e171]: 89,00 zł
+          - link "Plakat botaniczny – Palma w Barcelonie Zobacz szczegóły Hiszpania Botanika Pastelowe Egzotyka Sjesta Plakat botaniczny – Palma w Barcelonie Pablo Sanchez 83,00 zł" [ref=e172] [cursor=pointer]:
+            - /url: /plakat/palma-w-barcelonie
+            - generic [ref=e173]:
+              - img "Plakat botaniczny – Palma w Barcelonie" [ref=e174]
+              - button "Zobacz szczegóły" [ref=e176]
+            - generic [ref=e177]:
+              - generic [ref=e178]: Hiszpania
+              - generic [ref=e179]: Botanika
+              - generic [ref=e180]: Pastelowe
+              - generic [ref=e181]: Egzotyka
+              - generic [ref=e182]: Sjesta
+            - generic [ref=e183]:
+              - heading "Plakat botaniczny – Palma w Barcelonie" [level=3] [ref=e184]
+              - paragraph [ref=e185]: Pablo Sanchez
+              - paragraph [ref=e186]: 83,00 zł
+          - link "Plakat boho – Hiszpańskie Wybrzeże Zobacz szczegóły Hiszpania Plaża Boho Skandynawskie Natura Plakat boho – Hiszpańskie Wybrzeże Isabel Garcia 87,00 zł" [ref=e187] [cursor=pointer]:
+            - /url: /plakat/hiszpanskie-wybrzeze
+            - generic [ref=e188]:
+              - img "Plakat boho – Hiszpańskie Wybrzeże" [ref=e189]
+              - button "Zobacz szczegóły" [ref=e191]
+            - generic [ref=e192]:
+              - generic [ref=e193]: Hiszpania
+              - generic [ref=e194]: Plaża
+              - generic [ref=e195]: Boho
+              - generic [ref=e196]: Skandynawskie
+              - generic [ref=e197]: Natura
+            - generic [ref=e198]:
+              - heading "Plakat boho – Hiszpańskie Wybrzeże" [level=3] [ref=e199]
+              - paragraph [ref=e200]: Isabel Garcia
+              - paragraph [ref=e201]: 87,00 zł
+  - contentinfo [ref=e202]:
+    - paragraph [ref=e204]: © 2026 Poster Shop. Autorskie Fotografie z Południa Europy.
+  - button "Open Next.js Dev Tools" [ref=e210] [cursor=pointer]:
+    - img [ref=e211]
+  - alert [ref=e214]

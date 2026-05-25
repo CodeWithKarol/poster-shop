@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "PosterShop" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Koszyk (1)" [ref=e7] [cursor=pointer]:
+          - /url: /checkout
+  - main [ref=e8]:
+    - main [ref=e9]:
+      - generic [ref=e10]:
+        - navigation [ref=e11]:
+          - link "Sklep" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e13]: /
+          - link "Plakaty do druku" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e15]: /
+          - generic [ref=e16]: Włochy
+        - generic [ref=e17]:
+          - generic [ref=e19]:
+            - img "Plakat do salonu – Słoneczna Sycylia - view 1" [ref=e21]
+            - img "Plakat do salonu – Słoneczna Sycylia - view 2" [ref=e23]
+            - img "Plakat do salonu – Słoneczna Sycylia - view 3" [ref=e25]
+            - img "Plakat do salonu – Słoneczna Sycylia - view 4" [ref=e27]
+          - generic [ref=e29]:
+            - heading "Plakat do salonu – Słoneczna Sycylia Produkt Cyfrowy" [level=1] [ref=e30]:
+              - text: Plakat do salonu – Słoneczna Sycylia
+              - generic [ref=e31]: Produkt Cyfrowy
+            - generic [ref=e32]:
+              - text: 85,00 zł
+              - paragraph [ref=e33]: Plik cyfrowy JPG/PDF do pobrania
+            - paragraph [ref=e34]: Wąska uliczka, pranie schnące w słońcu i zapach porannej kawy. Idealny do jasnego salonu.
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e37]: ⚡
+                - generic [ref=e38]:
+                  - paragraph [ref=e39]: Błyskawiczna dostawa
+                  - paragraph [ref=e40]: Link do pliku na Twoim e-mailu w 60 sekund po opłaceniu
+              - generic [ref=e41]:
+                - generic [ref=e42]: 📐
+                - generic [ref=e43]:
+                  - paragraph [ref=e44]: Uniwersalny format
+                  - paragraph [ref=e45]: Jeden plik pozwala na bezstratny druk od A4 aż do XXL (50x70 / B2)
+              - generic [ref=e46]:
+                - generic [ref=e47]: 🌍
+                - generic [ref=e48]:
+                  - paragraph [ref=e49]: 100% Autentyczność
+                  - paragraph [ref=e50]: Fotografia wykonana osobiście, niedostępna w masowych sieciówkach
+            - paragraph [ref=e52]:
+              - strong [ref=e53]: "Uwaga:"
+              - text: Kupujesz produkt cyfrowy w wysokiej rozdzielczości do samodzielnego wydruku. Rama oraz druk fizyczny nie są częścią zamówienia.
+            - button "KUP PLAKAT I POBIERZ TERAZ" [ref=e54] [cursor=pointer]
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: ✓ Szybka dostawa
+              - paragraph [ref=e57]: ✓ Bezpieczna płatność (BLIK, Przelew)
+      - generic [ref=e60]:
+        - heading "Historia jednego kadru" [level=2] [ref=e61]
+        - paragraph [ref=e62]: Kadr uchwycony w sycylijskiej uliczce. Wąskie uliczki, kolorowe ściany, pranie na linach. Każdy dzień jak wakacje.
+        - heading "Gdzie sprawdzi się ten plakat?" [level=3] [ref=e63]
+        - paragraph [ref=e64]: Ten plakat idealnie sprawdzi się w wnętrzach, gdzie chcesz wprowadzić atmosferę śródziemnomorskiego spokoju. Pasuje zarówno do nowoczesnych minimalistycznych sal, jak i bardziej tradycyjnych przestrzeni poszukujących autentycznego akcentu. Rozważ umieszczenie go w jasnym miejscu, gdzie naturalne światło będzie podkreślać detale zdjęcia.
+      - generic [ref=e66]:
+        - heading "Informacje techniczne" [level=2] [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "Format pliku" [level=3] [ref=e70]
+            - paragraph [ref=e71]: Bezstratny format cyfrowy JPG oraz przygotowany do druku PDF w przestrzeni barwnej CMYK.
+          - generic [ref=e72]:
+            - heading "Rozdzielczość" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Ponad 300 DPI (maksymalna jakość druku).
+          - generic [ref=e75]:
+            - heading "Maksymalny rozmiar druku" [level=3] [ref=e76]
+            - paragraph [ref=e77]: Przygotowany pod plakaty XXL do druku – idealna ostrość do formatu 50x70 cm, B2, a nawet B1.
+          - generic [ref=e78]:
+            - heading "Elastyczność skalowania" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Plik możesz wydrukować w mniejszych formatach (A4, A3, A2) – drukarnia automatycznie dopasuje kadr.
+      - generic [ref=e82]:
+        - heading "Pytania i odpowiedzi" [level=2] [ref=e83]
+        - generic [ref=e84]:
+          - button "Czy mogę wydrukować plakat więcej niż raz? +" [ref=e86] [cursor=pointer]:
+            - heading "Czy mogę wydrukować plakat więcej niż raz?" [level=3] [ref=e87]
+            - generic [ref=e88]: +
+          - button "Gdzie mam to wydrukować? +" [ref=e90] [cursor=pointer]:
+            - heading "Gdzie mam to wydrukować?" [level=3] [ref=e91]
+            - generic [ref=e92]: +
+          - button "Jaki papier polecacie do wydruku? +" [ref=e94] [cursor=pointer]:
+            - heading "Jaki papier polecacie do wydruku?" [level=3] [ref=e95]
+            - generic [ref=e96]: +
+      - generic [ref=e98]:
+        - heading "Pasuje do zestawu" [level=2] [ref=e99]
+        - paragraph [ref=e100]: Te plakaty mają podobne kolory i styl. Jeśli kupisz 2-3 pliki, Twoja ściana będzie wyglądać profesjonalnie.
+        - generic [ref=e101]:
+          - link "Plakat na ścianę – Rzymskie Wakacje Zobacz szczegóły Włochy Architektura Pastelowe Barwy Ciepła Estetyka Plakat na ścianę – Rzymskie Wakacje Antonio Rossi 89,00 zł" [ref=e102] [cursor=pointer]:
+            - /url: /plakat/rzymskie-wakacje
+            - generic [ref=e103]:
+              - img "Plakat na ścianę – Rzymskie Wakacje" [ref=e104]
+              - button "Zobacz szczegóły" [ref=e106]
+            - generic [ref=e107]:
+              - generic [ref=e108]: Włochy
+              - generic [ref=e109]: Architektura
+              - generic [ref=e110]: Pastelowe Barwy
+              - generic [ref=e111]: Ciepła Estetyka
+            - generic [ref=e112]:
+              - heading "Plakat na ścianę – Rzymskie Wakacje" [level=3] [ref=e113]
+              - paragraph [ref=e114]: Antonio Rossi
+              - paragraph [ref=e115]: 89,00 zł
+          - link "Plakat do sypialni – Wybrzeże Amalfi Zobacz szczegóły Włochy Do Sypialni Błękit Morza Relaksacyjna Estetyka Plakat do sypialni – Wybrzeże Amalfi Giulio Marino 95,00 zł" [ref=e116] [cursor=pointer]:
+            - /url: /plakat/wybrzeze-amalfi
+            - generic [ref=e117]:
+              - img "Plakat do sypialni – Wybrzeże Amalfi" [ref=e118]
+              - button "Zobacz szczegóły" [ref=e120]
+            - generic [ref=e121]:
+              - generic [ref=e122]: Włochy
+              - generic [ref=e123]: Do Sypialni
+              - generic [ref=e124]: Błękit Morza
+              - generic [ref=e125]: Relaksacyjna Estetyka
+            - generic [ref=e126]:
+              - heading "Plakat do sypialni – Wybrzeże Amalfi" [level=3] [ref=e127]
+              - paragraph [ref=e128]: Giulio Marino
+              - paragraph [ref=e129]: 95,00 zł
+  - contentinfo [ref=e131]:
+    - paragraph [ref=e133]: © 2026 Poster Shop. Autorskie Fotografie z Południa Europy.
+  - button "Open Next.js Dev Tools" [ref=e139] [cursor=pointer]:
+    - img [ref=e140]
+  - alert [ref=e143]
