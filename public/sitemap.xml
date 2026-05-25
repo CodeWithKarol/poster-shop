@@ -7,18 +7,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pliknaplakat.pl/checkout</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://pliknaplakat.pl/checkout/success</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://pliknaplakat.pl/plakat/plakat-do-salonu-greckie-okno</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
