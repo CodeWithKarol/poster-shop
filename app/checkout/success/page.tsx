@@ -130,7 +130,7 @@ export default async function CheckoutSuccessPage({
                 {emailError}
               </p>
               <p className="text-xs text-destructive">
-                Wydaje się, że wystąpił problem z wysyłką pliku na Twój e-mail. Skontaktuj się z nami pod adresem <strong className="text-foreground">kontakt@pliknaplakat.pl</strong> podając numer zamówienia.
+                Wydaje się, że wystąpił problem z wysyłką pliku na Twój e-mail. Skontaktuj się z nami pod adresem <strong className="text-foreground">sklep@pliknaplakat.pl</strong> podając numer zamówienia.
               </p>
             </>
           ) : emailSent ? (

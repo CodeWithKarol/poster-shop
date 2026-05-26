@@ -39,7 +39,7 @@ export function Header() {
                   <Link href="/" className="text-sm font-semibold uppercase tracking-[0.2em] hover:text-muted-foreground transition-colors">Sklep</Link>
                 </nav>
                 <div className="mt-auto pt-8 border-t border-border">
-                  <p className="text-xs text-muted-foreground tracking-wider">kontakt@pliknaplaakat.pl</p>
+                  <p className="text-xs text-muted-foreground tracking-wider">sklep@pliknaplakat.pl</p>
                 </div>
               </div>
             </SheetContent>
