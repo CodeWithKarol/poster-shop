@@ -46,8 +46,8 @@ export const posters: Poster[] = [
     productPage: {
       story: "Ten kadr złapałem w bocznej, cichej uliczce na Santorini, z dala od tłumu turystów. Intensywne, południowe słońce idealnie odcinało geometrię klasycznego, greckiego okna od chropowatej, wielokrotnie bielonej ściany. Głęboki odcień okiennic o barwie indygo perfekcyjnie kontrastuje z czystą bielą, a spływające z boku różowe kwiaty bougainvillei dopełniają ten widok. Ten plakat to czysty spokój, powiew morskiej bryzy i esencja greckiego klimatu 'siga-siga' – powoli, bez pośpiechu.",
       placementTips: "Genialnie sprawdzi się jako nowoczesny plakat do salonu lub sypialni urządzonych w stylu skandynawskim, marynistycznym lub nowoczesnym minimalizmie. Biel mocno rozjaśni optycznie przestrzeń, a błękit doda jej głębi.",
-      metaTitle: "Plakat do salonu Greckie Okno | Plakaty do druku cyfrowe",
-      metaDescription: "Kup autorski plakat do druku 'Greckie Okno'. Cyfrowy plik JPG gotowy w 60 sekund. Przenieś słońce Grecji na swoją ścianę!"
+      metaTitle: "Plakat do salonu Greckie Okno | Nowoczesne plakaty do druku",
+      metaDescription: "Kup autorski plakat do druku 'Greckie Okno'. Ten nowoczesny plakat do druku to cyfrowy plik JPG gotowy w 60 sekund. Przenieś słońce Grecji na swoją ścianę!"
     }
   },
   {
@@ -69,8 +69,8 @@ export const posters: Poster[] = [
     productPage: {
       story: "To ujęcie powstało wczesnym popołudniem we Włoszech, gdy słońce zaczyna wędrować niżej i tworzy na budynkach niezwykłe, geometryczne płaszczyzny. Zachwyciła mnie ta idealna, długa linia cienia odcinająca się pod skosem od rozgrzanej, piaskowo-beżowej fasady kamienicy z tradycyjnymi, drewnianymi okiennicami. Soczysta zielona roślinność w donicach u dołu kadru dodaje całości naturalnego balansu i życia. To kwintesencja włoskiego 'dolce far niente' – sztuki słodkiego nicnierobienia.",
       placementTips: "Idealny plakat na ścianę do przedpokoju, jadalni lub salonu, gdzie dominują naturalne kolory ziemi, drewno, beże i tekstylia z lnu. Wprowadza niesamowity, przytulny i ciepły, śródziemnomorski klimat.",
-      metaTitle: "Plakat na ścianę Włoskie Światłocienie | Autorskie plakaty do druku",
-      metaDescription: "Odkryj plakat do pobrania 'Włoskie Światłocienie'. Autentyczna fotografia z podróży do Włoch. Pobierz, wydrukuj lokalnie i stwórz ciepły klimat w swoim domu."
+      metaTitle: "Plakat na ścianę Włoskie Światłocienie | Nowoczesne plakaty do druku",
+      metaDescription: "Odkryj plakat do pobrania 'Włoskie Światłocienie'. Ten autorski plakat do druku to fotografia z podróży do Włoch. Pobierz, wydrukuj lokalnie i stwórz ciepły klimat w swoim domu."
     }
   },
   {
@@ -92,8 +92,8 @@ export const posters: Poster[] = [
     productPage: {
       story: "To ujęcie to czysta definicja rustykalnego południa. Zatrzymałem się przy wejściu do starego domu, gdzie surowość i faktura wiekowych, drewnianych wrót oraz chropowatego muru w odcieniach beżu i ochry spotkała się z organicznymi kształtami kaktusów (w tym charakterystycznej opuncji) stojących w tradycyjnych, glinianych donicach. Kolorystyka tej kompozycji idealnie oddaje barwę rozgrzanej słońcem ziemi. To detal z podróży, który ma w sobie mnóstwo naturalnej, spokojnej energii.",
       placementTips: "Doskonale sprawdzi się jako plakat do kuchni, jadalni lub jasnego aneksu kuchennego. Pięknie komponuje się z nowoczesnymi wnętrzami z elementami stylu boho, japandi lub rustykalnego, obok świeżych ziół i glinianych naczyń.",
-      metaTitle: "Plakat do kuchni Włoskie Klimaty | Plakaty xxl do druku",
-      metaDescription: "Dodaj smaku swojej przestrzeni. Plakat do kuchni z motywem kaktusów i włoskiej terakoty. Pobierz cyfrowy plik wysokiej jakości i wydrukuj w minutę."
+      metaTitle: "Plakat do kuchni Włoskie Klimaty | Nowoczesne plakaty do druku",
+      metaDescription: "Dodaj smaku swojej przestrzeni. Ten plakat do kuchni z motywem kaktusów i włoskiej terakoty to gotowy plakat do druku. Pobierz cyfrowy plik wysokiej jakości i wydrukuj w minutę."
     }
   },
   {
@@ -115,8 +115,8 @@ export const posters: Poster[] = [
     productPage: {
       story: "Kadr uchwycony w południowej Hiszpanii podczas popołudniowej sjesty, gdy ulice zamierają, a główną rolę zaczyna grać ostre światło. Kontrast między idealnie jasną, geometryczną płaszczyzną ściany, głębokim cieniem a kunsztownymi detalami tradycyjnego, czarnego balkonu z kutego żelaza urzekł mnie od pierwszego wejrzenia. Spływająca, soczysta zieleń roślin przełamuje surowość formy. To ujęcie to ponadczasowa, klasyczna elegancja architektury południa Europy.",
       placementTips: "Ten plakat nowoczesny idealnie pasuje do eleganckiego salonu, domowego biura, korytarza lub gabinetu. Wyrazista forma i wysoki kontrast świetnie wyglądają oprawione w czarne, wąskie lub minimalistyczne, aluminiowe ramy.",
-      metaTitle: "Plakat nowoczesny Hiszpański Balkon | Plakaty do pobrania",
-      metaDescription: "Stylowa architektura Hiszpanii na Twojej ścianie. Zamów plakat do druku z motywem andaluzyjskiego balkonu. Wysoka jakość do samodzielnego wydruku."
+      metaTitle: "Plakat nowoczesny Hiszpański Balkon | Nowoczesne plakaty do druku",
+      metaDescription: "Stylowa architektura Hiszpanii na Twojej ścianie. Zamów autorski plakat do druku z motywem andaluzyjskiego balkonu. Wysoka jakość do samodzielnego wydruku w domu."
     }
   },
   {
@@ -138,8 +138,8 @@ export const posters: Poster[] = [
     productPage: {
       story: "Uwielbiam detale, w których mniej znaczy więcej, a to zdjęcie to mój absolutny faworyt pod kątem czystej formy. Ten plakat to minimalistyczne studium światła – ostry, bardzo wyraźny, geometryczny zarys liści palmy rzucony przez południowe słońce na jasną wall-fakturę o ciepłym odcieniu off-white. Kompozycja zamyka się nowoczesnym elementem architektury u dołu. To niezwykle artystyczny kadr, bardzo popularny w nowoczesnych trendach wnętrzarskich.",
       placementTips: "Typowy, poszukiwany plakat z Pinteresta – absolutny hit do sypialni lub salonu w stylu Japandi, loftowym lub modern organic. Najlepiej prezentuje się w surowej, jasnej drewnianej ramie (np. dąb) z dużym, eleganckim passe-partout.",
-      metaTitle: "Plakat minimalistyczny Egzotyczne Cienie | Plakaty na ścianę",
-      metaDescription: "Postaw na nowoczesny minimalizm. Plakat cyfrowy do samodzielnego druku z unikalną grą świateł i cieni palmy. Idealny do sypialni i salonu w stylu Japandi."
+      metaTitle: "Plakat minimalistyczny Egzotyczne Cienie | Nowoczesne plakaty do druku",
+      metaDescription: "Postaw na nowoczesny minimalizm. Ten plakat do druku to cyfrowy plik z unikalną grą świateł i cieni palmy. Idealny do sypialni i salonu w stylu Japandi."
     }
   },
   {
@@ -153,7 +153,7 @@ export const posters: Poster[] = [
     mockupUrl: "/mockups/greckie-okno-santorini-mockup.webp",
     gallery: ["/images/palma-w-sloncu-liscie.webp"],
     aspectRatio: "portrait",
-    description: "Rozłożyste, dojrzałe liście palmy w ciepłym, oliwkowo-zielonym odcieniu, fotografowane od dołu na tle bezchmurnego, pastelowego nieba.",
+    description: "Rozłożyste, dojrzałe liście palmy w ciepłym, oliwkowo-zielonym odcieniu, fotografowane od dołu na tle bezchmurlnego, pastelowego nieba.",
     relatedSlugs: ["plakat-nowoczesny-hiszpanski-balkon", "plakat-minimalistyczny-egzotyczne-cienie"],
     tags: ["plakaty do druku", "plakaty do salonu", "botanika", "lato", "ciepłe beże"],
     colors: ["#EADCC9", "#5F6A4D", "#D4A373"],
@@ -161,8 +161,8 @@ export const posters: Poster[] = [
     productPage: {
       story: "To zdjęcie powstało, gdy po prostu położyłem się w cieniu wielkiej palmy podczas największego popołudniowego upału w nadmorskim miasteczku. Ciepły wiatr delikatnie poruszał potężnymi, dojrzałymi liśćmi, a słońce przedzierało się przez nie, nadając im naturalny, głęboki, oliwkowo-zielony odcień. Jasne, bezchmurne i niemal pastelowe niebo w tle potęguje wrażenie przestrzeni. Ten plakat botaniczny to czysta definicja letniej sjesty – natychmiast obniża tętno i przynoszą spokój.",
       placementTips: "Świetny jako plakat botaniczny do salonu, sypialni czy domowego biura. Łagodne, oliwkowo-beżowe tony działają kojąco i relaksująco. Rewelacyjnie komponuje się w zestawie z innymi plakatami tworząc wakacyjną galerię ścienną.",
-      metaTitle: "Plakat botaniczny Palma w Słońcu | Plakaty xxl do druku",
-      metaDescription: "Poczuj wieczne lato. Autorski plakat botaniczny do druku przedstawiający liście palmy w ciepłym słońcu. Pobierz plik w wysokiej rozdzielczości i odmień pokój."
+      metaTitle: "Plakat botaniczny Palma w Słońcu | Nowoczesne plakaty do druku",
+      metaDescription: "Poczuj wieczne lato. Ten autorski plakat do druku przedstawia liście palmy w ciepłym słońcu. Pobierz plik w wysokiej rozdzielczości i odmień swój pokój w minutę."
     }
   }
 ];
