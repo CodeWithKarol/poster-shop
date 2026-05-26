@@ -51,16 +51,16 @@ export default async function ProductDetailPage({
   const breadcrumbTitle = poster.title.split('–').pop()?.trim() || poster.title;
 
   return (
-    <main className="bg-white min-h-screen">
+    <main className="bg-background min-h-screen text-foreground">
       {/* Breadcrumbs & Header */}
       <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-8 md:py-12">
         {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-xs md:text-sm text-zinc-600 mb-8">
-          <a href="/" className="hover:text-black transition-colors">
+        <nav className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground mb-8">
+          <a href="/" className="hover:text-foreground transition-colors">
             Sklep
           </a>
           <span>/</span>
-          <span className="text-black font-semibold">{breadcrumbTitle}</span>
+          <span className="text-foreground font-semibold">{breadcrumbTitle}</span>
         </nav>
 
         {/* Two-Column Layout: Gallery + Purchase Card */}

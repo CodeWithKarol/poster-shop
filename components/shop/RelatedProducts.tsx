@@ -21,12 +21,12 @@ export function RelatedProducts({ relatedSlugs, currentSlug }: RelatedProductsPr
   }
 
   return (
-    <section className="border-t border-black/10 py-16 md:py-24">
-      <h2 className="font-serif text-3xl md:text-4xl mb-4 text-black">
+    <section className="border-t border-border py-16 md:py-24">
+      <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
         Pasuje do zestawu
       </h2>
       
-      <p className="text-base text-zinc-700 mb-12 max-w-2xl">
+      <p className="text-base text-muted-foreground mb-12 max-w-2xl">
         Te plakaty mają podobne kolory i styl. Jeśli kupisz 2-3 pliki, Twoja ściana będzie wyglądać profesjonalnie.
       </p>
 
