@@ -16,7 +16,7 @@ export function Header() {
   const { cartCount } = useCart()
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-black/10 bg-white/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur-md">
       <div className="container mx-auto max-w-[1400px] flex h-16 md:h-20 items-center justify-between px-6 lg:px-8">
         
         {/* MOBILE MENU TRIGGER */}
@@ -28,7 +28,7 @@ export function Header() {
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[300px] sm:w-[400px] border-r-black/10 bg-white p-0">
+            <SheetContent side="left" className="w-[300px] sm:w-[400px] border-r-border bg-background p-0">
               <SheetTitle className="sr-only">Menu nawigacyjne</SheetTitle>
               <SheetDescription className="sr-only">Nawigacja główna sklepu z plakatami</SheetDescription>
               <div className="flex flex-col h-full py-12 px-6">
@@ -36,10 +36,10 @@ export function Header() {
                   Plik<span className="font-light"> Na Plakat</span>
                 </div>
                 <nav className="flex flex-col gap-8">
-                  <Link href="/" className="text-sm font-semibold uppercase tracking-[0.2em] hover:text-zinc-500 transition-colors">Sklep</Link>
+                  <Link href="/" className="text-sm font-semibold uppercase tracking-[0.2em] hover:text-muted-foreground transition-colors">Sklep</Link>
                 </nav>
-                <div className="mt-auto pt-8 border-t border-black/10">
-                  <p className="text-xs text-zinc-500 tracking-wider">kontakt@pliknaplaakat.pl</p>
+                <div className="mt-auto pt-8 border-t border-border">
+                  <p className="text-xs text-muted-foreground tracking-wider">kontakt@pliknaplaakat.pl</p>
                 </div>
               </div>
             </SheetContent>

@@ -95,64 +95,64 @@ export default async function CheckoutSuccessPage({
   }
 
   return (
-    <main className="bg-white min-h-[80vh] flex flex-col items-center justify-center px-6 py-12">
+    <main className="bg-background min-h-[80vh] flex flex-col items-center justify-center px-6 py-12">
       {/* Clears the cart on client side safely */}
       <CartCleaner />
 
       <div className="text-center max-w-2xl">
         {/* Success Icon */}
         <div className="mb-8">
-          <CheckCircle2 className="w-20 h-20 text-black mx-auto" strokeWidth={1} />
+          <CheckCircle2 className="w-20 h-20 text-foreground mx-auto" strokeWidth={1} />
         </div>
 
         {/* Title */}
-        <h1 className="font-serif text-4xl md:text-5xl mb-6">
+        <h1 className="font-serif text-4xl md:text-5xl mb-6 text-foreground">
           Sukces! Twoje plakaty czekają.
         </h1>
 
         {/* Order Number */}
-        <p className="text-sm text-zinc-600 mb-8">
-          Kod zamówienia: <strong>#{orderNumber}</strong>
+        <p className="text-sm text-muted-foreground mb-8">
+          Kod zamówienia: <strong className="text-foreground">#{orderNumber}</strong>
         </p>
 
         {/* Email Confirmation */}
         <div className={`border p-6 rounded-none mb-8 text-left ${
           emailError 
-            ? 'bg-red-50 border-red-200' 
-            : 'bg-zinc-50 border-black/10'
+            ? 'bg-destructive/10 border-destructive' 
+            : 'bg-muted border-border'
         }`}>
           {emailError ? (
             <>
-              <p className="text-sm text-red-700 mb-2 font-semibold">
+              <p className="text-sm text-destructive mb-2 font-semibold">
                 ⚠️ Problem z wysłaniem emaila
               </p>
-              <p className="text-xs text-red-600 mb-3">
+              <p className="text-xs text-destructive mb-3">
                 {emailError}
               </p>
-              <p className="text-xs text-red-600">
-                Wydaje się, że wystąpił problem z wysyłką pliku na Twój e-mail. Skontaktuj się z nami pod adresem <strong>kontakt@pliknaplakat.pl</strong> podając numer zamówienia.
+              <p className="text-xs text-destructive">
+                Wydaje się, że wystąpił problem z wysyłką pliku na Twój e-mail. Skontaktuj się z nami pod adresem <strong className="text-foreground">kontakt@pliknaplakat.pl</strong> podając numer zamówienia.
               </p>
             </>
           ) : emailSent ? (
             <>
-              <p className="text-sm text-zinc-700 mb-4">
-                ✅ Email wysłany pomyślnie na <strong>{customerEmail}</strong>
+              <p className="text-sm text-foreground mb-4">
+                ✅ Email wysłany pomyślnie na <strong className="text-foreground">{customerEmail}</strong>
               </p>
-              <p className="text-xs text-zinc-700 mb-2">
+              <p className="text-xs text-muted-foreground mb-2">
                 Plik JPG znajduje się w załączniku wiadomości. Jest w pełni gotowy do druku!
               </p>
-              <p className="text-xs text-zinc-600">
+              <p className="text-xs text-muted-foreground">
                 Jeśli nie widzisz maila w ciągu 2 minut, sprawdź folder SPAM.
               </p>
             </>
           ) : (
             <>
-              <p className="text-sm text-zinc-700 mb-4">
-                Na Twój adres e-mail (<strong>{customerEmail}</strong>) wysłaliśmy
+              <p className="text-sm text-foreground mb-4">
+                Na Twój adres e-mail (<strong className="text-foreground">{customerEmail}</strong>) wysłaliśmy
                 plik JPG jako załącznik. Sprawdź swoją skrzynkę
                 odbiorczą!
               </p>
-              <p className="text-xs text-zinc-600">
+              <p className="text-xs text-muted-foreground">
                 Jeśli nie widzisz maila, upewnij się czy sprawdziłeś folder SPAM.
               </p>
             </>
@@ -160,9 +160,9 @@ export default async function CheckoutSuccessPage({
         </div>
 
         {/* Pro Tip */}
-        <div className="bg-zinc-50 border border-black/10 p-6 rounded-none mb-8 text-left">
-          <h3 className="font-semibold text-sm mb-2">💡 Pro Tip:</h3>
-          <p className="text-xs text-zinc-700 leading-relaxed">
+        <div className="bg-muted border border-border p-6 rounded-none mb-8 text-left">
+          <h3 className="font-semibold text-sm mb-2 text-foreground">💡 Pro Tip:</h3>
+          <p className="text-xs text-muted-foreground leading-relaxed">
             Aby uzyskać niesamowity efekt głębi kolorów, przekaż pliki do drukarni
             z prośbą o wydruk na papierze matowym, gramatura min. 180-200g.
             Druk pigmentowy jest najtrwalszy i nie blaknie przez lata.
@@ -172,7 +172,7 @@ export default async function CheckoutSuccessPage({
         {/* CTA */}
         <Link
           href="/"
-          className="inline-block px-8 py-6 bg-black text-white rounded-none uppercase tracking-[0.15em] font-semibold text-sm hover:bg-zinc-800 transition"
+          className="inline-block px-8 py-6 bg-foreground text-background rounded-none uppercase tracking-[0.15em] font-semibold text-sm hover:bg-zinc-800 transition"
         >
           Wróć na stronę główną
         </Link>
@@ -195,15 +195,15 @@ function ErrorPage({
   };
 
   return (
-    <main className="bg-white min-h-[80vh] flex flex-col items-center justify-center px-6 py-12">
+    <main className="bg-background min-h-[80vh] flex flex-col items-center justify-center px-6 py-12">
       <div className="text-center max-w-2xl">
-        <h1 className="font-serif text-4xl mb-4">Coś poszło nie tak.</h1>
-        <p className="text-zinc-600 mb-8">
+        <h1 className="font-serif text-4xl mb-4 text-foreground">Coś poszło nie tak.</h1>
+        <p className="text-muted-foreground mb-8">
           {messages[reason] || 'Nieznany błąd.'}
         </p>
         <Link
           href="/checkout"
-          className="inline-block px-8 py-3 border border-black rounded-none uppercase tracking-wider text-xs hover:bg-black hover:text-white transition"
+          className="inline-block px-8 py-3 border border-border text-foreground rounded-none uppercase tracking-wider text-xs hover:bg-foreground hover:text-background transition"
         >
           Wróć do kasy
         </Link>
