@@ -29,6 +29,9 @@ export async function generateMetadata({
   return {
     title: poster.productPage.metaTitle,
     description: poster.productPage.metaDescription,
+    alternates: {
+      canonical: `https://pliknaplakat.pl/plakat/${slug}`,
+    },
     openGraph: {
       title: poster.title,
       description: poster.subtitle,
