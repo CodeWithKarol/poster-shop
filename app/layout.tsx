@@ -15,8 +15,8 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: "Plik Na Plakat | Autorskie Plakaty Do Druku",
-  description: "Autorskie fotografie z Południa Europy. Pobierz, drukuj, ciesz się pięknem w swoim domu.",
+  title: "Autorskie Plakaty do Druku na Ścianę – Sklep pliknaplakat.pl",
+  description: "Odkryj autorskie plakaty do samodzielnego druku w formatach A4, A3 i 50x70 cm. Pobierz cyfrowe grafiki i stwórz domową galerię ścienną w 2 minuty!",
 };
 
 export default function RootLayout({
