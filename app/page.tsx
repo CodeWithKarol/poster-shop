@@ -3,6 +3,7 @@
 import React from "react"
 import { PosterCard } from "@/components/shop/PosterCard"
 import { Button } from "@/components/ui/button"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { ArrowRight, Camera, Palette, Layers, Heart, Zap, Frame, Truck, Ruler } from "lucide-react"
 import { formatPrice, posters } from "@/lib/posters"
 import Image from "next/image"
@@ -163,70 +164,92 @@ export default function Home() {
          </div>
        </section>
 
-       {/* BOTTOM BANNER: PRODUCT DETAILS & REASSURANCE */}
-       <section className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-20 border-t border-border">
-         <div className="max-w-4xl">
-           {/* Heading */}
-           <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-6 md:mb-8">
-             Co dokładnie otrzymujesz po zakupie?
-           </h2>
+         {/* BOTTOM BANNER: PRODUCT DETAILS & REASSURANCE */}
+         <section className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-20 border-t border-border">
+           <div className="max-w-4xl">
+             {/* Heading */}
+             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-6 md:mb-8">
+               Co dokładnie otrzymujesz po zakupie?
+             </h2>
 
-           {/* Main Description */}
-           <div className="mb-8 md:mb-10">
-              <p className="font-sans text-base md:text-lg leading-relaxed text-muted-foreground mb-4">
-                Każdy plakat wysyłam w formie bezpiecznego, cyfrowego pliku JPG (JPEG). Plik jest gotowy do wydruku bez dodatkowego przetwarzania.
-              </p>
-             <p className="font-sans text-base md:text-lg leading-relaxed text-muted-foreground">
-               Pliki otrzymujesz w uniwersalnych proporcjach boków, co oznacza, że bez straty jakości możesz je wydrukować zarówno w mniejszych formatach (np. A4, A3, 30x40 cm), jak i w dużych, spektakularnych rozmiarach (np. plakaty 50x70 cm, a nawet większych!).
-             </p>
+             {/* Main Description */}
+             <div className="mb-8 md:mb-10">
+                <p className="font-sans text-base md:text-lg leading-relaxed text-muted-foreground mb-4">
+                  Każdy plakat wysyłam w formie bezpiecznego, cyfrowego pliku JPG (JPEG). Plik jest gotowy do wydruku bez dodatkowego przetwarzania.
+                </p>
+               <p className="font-sans text-base md:text-lg leading-relaxed text-muted-foreground">
+                 Pliki otrzymujesz w uniwersalnych proporcjach boków, co oznacza, że bez straty jakości możesz je wydrukować zarówno w mniejszych formatach (np. A4, A3, 30x40 cm), jak i w dużych, spektakularnych rozmiarach (np. plakaty 50x70 cm, a nawet większych!).
+               </p>
+             </div>
+
+             {/* Features Grid - 3 columns */}
+             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-12">
+               
+               {/* Feature 1: Fast Delivery */}
+               <div className="flex flex-col gap-3">
+                 <div className="flex items-center gap-3">
+                   <Zap className="w-5 h-5 text-foreground flex-shrink-0" />
+                   <h3 className="font-sans font-semibold text-foreground text-sm md:text-base">
+                     Dostawa w 2 minuty
+                   </h3>
+                 </div>
+                 <p className="font-sans text-xs md:text-sm text-muted-foreground ml-8">
+                   Automatyczna wysyłka na maila od razu po zaksięgowaniu płatności
+                 </p>
+               </div>
+ 
+               {/* Feature 2: Free Shipping */}
+               <div className="flex flex-col gap-3">
+                 <div className="flex items-center gap-3">
+                   <Truck className="w-5 h-5 text-foreground flex-shrink-0" />
+                   <h3 className="font-sans font-semibold text-foreground text-sm md:text-base">
+                     0 zł za dostawę
+                   </h3>
+                 </div>
+                 <p className="font-sans text-xs md:text-sm text-muted-foreground ml-8">
+                   Kupujesz produkt cyfrowy, nie płacisz za kuriera
+                 </p>
+               </div>
+ 
+               {/* Feature 3: Flexible Format */}
+               <div className="flex flex-col gap-3">
+                 <div className="flex items-center gap-3">
+                   <Ruler className="w-5 h-5 text-foreground flex-shrink-0" />
+                   <h3 className="font-sans font-semibold text-foreground text-sm md:text-base">
+                     Elastyczny format
+                   </h3>
+                 </div>
+                 <p className="font-sans text-xs md:text-sm text-muted-foreground ml-8">
+                   Drukujesz w takim rozmiarze, jakiego potrzebuje Twoja rama
+                 </p>
+               </div>
+ 
+             </div>
            </div>
+         </section>
 
-           {/* Features Grid - 3 columns */}
-           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-             
-             {/* Feature 1: Fast Delivery */}
-             <div className="flex flex-col gap-3">
-               <div className="flex items-center gap-3">
-                 <Zap className="w-5 h-5 text-foreground flex-shrink-0" />
-                 <h3 className="font-sans font-semibold text-foreground text-sm md:text-base">
-                   Dostawa w 2 minuty
-                 </h3>
-               </div>
-               <p className="font-sans text-xs md:text-sm text-muted-foreground ml-8">
-                 Automatyczna wysyłka na maila od razu po zaksięgowaniu płatności
-               </p>
-             </div>
-
-             {/* Feature 2: Free Shipping */}
-             <div className="flex flex-col gap-3">
-               <div className="flex items-center gap-3">
-                 <Truck className="w-5 h-5 text-foreground flex-shrink-0" />
-                 <h3 className="font-sans font-semibold text-foreground text-sm md:text-base">
-                   0 zł za dostawę
-                 </h3>
-               </div>
-               <p className="font-sans text-xs md:text-sm text-muted-foreground ml-8">
-                 Kupujesz produkt cyfrowy, nie płacisz za kuriera
-               </p>
-             </div>
-
-             {/* Feature 3: Flexible Format */}
-             <div className="flex flex-col gap-3">
-               <div className="flex items-center gap-3">
-                 <Ruler className="w-5 h-5 text-foreground flex-shrink-0" />
-                 <h3 className="font-sans font-semibold text-foreground text-sm md:text-base">
-                   Elastyczny format
-                 </h3>
-               </div>
-               <p className="font-sans text-xs md:text-sm text-muted-foreground ml-8">
-                 Drukujesz w takim rozmiarze, jakiego potrzebuje Twoja rama
-               </p>
-             </div>
-
+         {/* FAQ SECTION */}
+         <section className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-20 border-t border-border">
+           <div className="max-w-4xl">
+             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-8">Często zadawane pytania</h2>
+             <Accordion type="single" collapsible className="w-full">
+               <AccordionItem value="item-1" className="border-b border-border">
+                 <AccordionTrigger>Jakie formaty otrzymam?</AccordionTrigger>
+                 <AccordionContent>
+                   Otrzymujesz pliki w najwyższej rozdzielczości, które są idealnie przygotowane jako plakaty do druku w popularnych formatach. Możesz je swobodnie wydrukować jako plakaty do druku A4, większe plakaty do druku A3, a także wielkoformatowe grafiki w rozmiarze 50x70 cm. Nasze pliki zachowują doskonałą jakość niezależnie od wybranego formatu.
+                 </AccordionContent>
+               </AccordionItem>
+               <AccordionItem value="item-2" className="border-b border-border">
+                 <AccordionTrigger>Czy pliki są w formacie PDF?</AccordionTrigger>
+                 <AccordionContent>
+                   Nasze autorskie grafiki wysyłamy w formacie JPEG (JPG) w bardzo wysokiej rozdzielczości. Jest to format standardowo obsługiwany przez każdą drukarnię i domową drukarkę. Pliki JPEG tej klasy to profesjonalne plakaty do druku PDF, które możesz samodzielnie przekonwertować lub po prostu wysłać do druku, uzyskując wydruk najwyższej jakości.
+                 </AccordionContent>
+               </AccordionItem>
+             </Accordion>
            </div>
-         </div>
-       </section>
+         </section>
 
-     </div>
-   );
- }
+      </div>
+    );
+  }
+
