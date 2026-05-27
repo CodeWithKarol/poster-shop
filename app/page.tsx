@@ -136,7 +136,7 @@ export default function Home() {
 
             {/* Main Heading */}
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-foreground">
-              Wybierz swój kadr i pobierz plakat na ścianę do druku
+              Wybierz swój kadr i pobierz plakaty na ścianę do druku
             </h2>
 
             {/* Description */}

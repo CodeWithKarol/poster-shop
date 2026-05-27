@@ -30,7 +30,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_1007",
     slug: "plakat-do-salonu-greckie-okno",
-    title: "Plakat do salonu – Greckie Okno",
+    title: "Plakat do salonu do druku – Greckie Okno",
     subtitle: "Minimalistyczny detal z Cyklad",
     artist: "Karol",
     basePrice: 4900,
@@ -53,7 +53,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_3200",
     slug: "plakat-na-sciane-wloskie-swiatlocienie",
-    title: "Plakat na ścianę – Włoskie Światłocienie",
+    title: "Plakat na ścianę do druku – Włoskie Światłocienie",
     subtitle: "Gra cieni na rozgrzanej fasadzie",
     artist: "Karol",
     basePrice: 4900,
@@ -76,7 +76,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_3217",
     slug: "plakat-do-kuchni-wloskie-klimaty",
-    title: "Plakat do kuchni – Włoskie Klimaty",
+    title: "Plakat do kuchni do druku – Włoskie Klimaty",
     subtitle: "Kaktusy i surowa faktura rustykalnego muru",
     artist: "Karol",
     basePrice: 4900,
@@ -99,7 +99,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_4134",
     slug: "plakat-nowoczesny-hiszpanski-balkon",
-    title: "Plakat nowoczesny – Hiszpański Balkon",
+    title: "Plakat nowoczesny do druku – Hiszpański Balkon",
     subtitle: "Klasyczna architektura w mocnym słońcu",
     artist: "Karol",
     basePrice: 4900,
@@ -122,7 +122,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_4226",
     slug: "plakat-minimalistyczny-egzotyczne-cienie",
-    title: "Plakat minimalistyczny – Egzotyczne Cienie",
+    title: "Plakat minimalistyczny do druku – Egzotyczne Cienie",
     subtitle: "Artystyczne studium światła i struktury",
     artist: "Karol",
     basePrice: 4900,
@@ -145,7 +145,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_4299",
     slug: "plakat-botaniczny-palma-w-sloncu",
-    title: "Plakat botaniczny – Palma w Słońcu",
+    title: "Plakat botaniczny do druku – Palma w Słońcu",
     subtitle: "Letnia sjesta i wakacyjny luz w jednym kadrze",
     artist: "Karol",
     basePrice: 4900,
