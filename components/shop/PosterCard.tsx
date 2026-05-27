@@ -32,7 +32,7 @@ export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, as
       >
         <Image
           src={showMockup ? mockupUrl : imageUrl}
-          alt={showMockup ? `${title} - mockup` : title}
+          alt={showMockup ? `${title.replace("do druku", "").trim()} - wizualizacja we wnętrzu` : `${title.replace("do druku", "").trim()} - plakat do druku wysokiej jakości`}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
