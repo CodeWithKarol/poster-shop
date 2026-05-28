@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react"
+import { Store, WebSite, WithContext } from "schema-dts"
 import { PosterCard } from "@/components/shop/PosterCard"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
@@ -9,6 +10,28 @@ import { formatPrice, posters } from "@/lib/posters"
 import Image from "next/image"
 
 export default function Home() {
+  const jsonLd: (WithContext<Store> | WithContext<WebSite>)[] = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "@id": "https://www.pliknaplakat.pl/#store",
+      name: "Plik Na Plakat",
+      url: "https://www.pliknaplakat.pl/",
+      logo: "https://www.pliknaplakat.pl/images/logo.png",
+      image: "https://www.pliknaplakat.pl/images/glowna-reprezentacyjna.jpg",
+      description: "Sklep internetowy oferujący autorskie plakaty do druku na ścianę. Pobierz cyfrowe grafiki i zdjęcia w wysokiej rozdzielczości do samodzielnego wydruku w formatach A4, A3 i 50x70 cm. Szybka metamorfoza wnętrza w stylu minimalistycznym, boho i vintage.",
+      priceRange: "PLN",
+      slogan: "Autorskie plakaty do samodzielnego druku – pobierz i wydrukuj w 2 minuty"
+    } as WithContext<Store & { slogan: string }>,
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.pliknaplakat.pl/#website",
+      name: "Plik Na Plakat – Plakaty do druku",
+      url: "https://www.pliknaplakat.pl/"
+    }
+  ];
+
   const handleScrollToProducts = () => {
     const element = document.getElementById('products-section');
     if (element) {
@@ -18,6 +41,10 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       
        {/* HERO SECTION - MINIMALIST USP */}
        <section className="w-full bg-background border-b border-border">

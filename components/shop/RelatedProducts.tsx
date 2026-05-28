@@ -21,7 +21,7 @@ export function RelatedProducts({ relatedSlugs, currentSlug }: RelatedProductsPr
   }
 
   return (
-    <section className="border-t border-border py-16 md:py-24">
+    <section className="py-16 md:py-24">
       <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
         Pasuje do zestawu
       </h2>

@@ -8,8 +8,8 @@ interface ProductStoryProps {
 
 export function ProductStory({ poster }: ProductStoryProps) {
   return (
-    <section className="border-t border-border py-16 md:py-24">
-      <div className="max-w-2xl mx-auto">
+    <section className="py-16 md:py-24">
+      <div className="max-w-2xl">
         {/* Story Section */}
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-foreground">
           Historia kadru

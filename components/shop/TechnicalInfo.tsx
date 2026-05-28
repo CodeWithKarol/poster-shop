@@ -6,7 +6,7 @@ interface TechnicalInfoProps {
 
 export function TechnicalInfo({ resolution }: TechnicalInfoProps) {
   return (
-    <section className="border-t border-border py-16 md:py-24">
+    <section className="py-16 md:py-24">
       <h2 className="font-serif text-3xl md:text-4xl mb-12 text-foreground">
         Informacje techniczne
       </h2>

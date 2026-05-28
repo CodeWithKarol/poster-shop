@@ -30,7 +30,7 @@ export const posters: Poster[] = [
   {
     id: "IMG_1007",
     slug: "plakat-do-salonu-greckie-okno",
-    title: "Plakat do salonu do druku – Greckie Okno",
+    title: "Plakat do salonu do druku – Greckie Okno (Minimalistyczny)",
     subtitle: "Minimalistyczny detal z Cyklad",
     artist: "Karol",
     basePrice: 4900,
@@ -45,15 +45,15 @@ export const posters: Poster[] = [
     resolution: "3024x4032",
     productPage: {
       story: "Ten kadr złapałem w bocznej, cichej uliczce na Santorini, z dala od tłumu turystów. Intensywne, południowe słońce idealnie odcinało geometrię klasycznego, greckiego okna od chropowatej, wielokrotnie bielonej ściany. Głęboki odcień okiennic o barwie indygo perfekcyjnie kontrastuje z czystą bielą, a spływające z boku różowe kwiaty bougainvillei dopełniają ten widok. Ten plakat to czysty spokój, powiew morskiej bryzy i esencja greckiego klimatu 'siga-siga' – powoli, bez pośpiechu.",
-      placementTips: "Genialnie sprawdzi się jako nowoczesny plakat do salonu lub sypialni urządzonych w stylu skandynawskim, marynistycznym lub nowoczesnym minimalizmie. Biel mocno rozjaśni optycznie przestrzeń, a błękit doda jej głębi.",
-      metaTitle: "Plakat do salonu Greckie Okno | Nowoczesne plakaty do druku",
-      metaDescription: "Kup autorski plakat do druku 'Greckie Okno'. Ten nowoczesny plakat do druku to cyfrowy plik JPG gotowy w 60 sekund. Przenieś słońce Grecji na swoją ścianę!"
+      placementTips: "Ten kadr to idealny plakat do salonu do druku, wpasowujący się w estetykę 'clean girl' i minimalizm. Ze względu na świeżą, morską kolorystykę, chętnie wybierany jest także jako plakat do łazienki do druku lub nowoczesnego wc, dodając wnętrzu wakacyjnego klimatu. Sprawdzi się także jako minimalistyczny plakat do sypialni.",
+      metaTitle: "Plakat do salonu do druku Greckie Okno – pliknaplakat.pl",
+      metaDescription: "Pobierz minimalistyczny plakat do salonu do druku „Greckie Okno”. Cyfrowa fotografia w wysokiej rozdzielczości (A4, A3, 50x70). Idealny do jasnych wnętrz i łazienek!"
     }
   },
   {
     id: "IMG_3200",
     slug: "plakat-na-sciane-wloskie-swiatlocienie",
-    title: "Plakat na ścianę do druku – Włoskie Światłocienie",
+    title: "Plakat na ścianę Włoskie Światłocienie do druku",
     subtitle: "Gra cieni na rozgrzanej fasadzie",
     artist: "Karol",
     basePrice: 4900,
@@ -68,15 +68,15 @@ export const posters: Poster[] = [
     resolution: "3024x4032",
     productPage: {
       story: "To ujęcie powstało wczesnym popołudniem we Włoszech, gdy słońce zaczyna wędrować niżej i tworzy na budynkach niezwykłe, geometryczne płaszczyzny. Zachwyciła mnie ta idealna, długa linia cienia odcinająca się pod skosem od rozgrzanej, piaskowo-beżowej fasady kamienicy z tradycyjnymi, drewnianymi okiennicami. Soczysta zielona roślinność w donicach u dołu kadru dodaje całości naturalnego balansu i życia. To kwintesencja włoskiego 'dolce far niente' – sztuki słodkiego nicnierobienia.",
-      placementTips: "Idealny plakat na ścianę do przedpokoju, jadalni lub salonu, gdzie dominują naturalne kolory ziemi, drewno, beże i tekstylia z lnu. Wprowadza niesamowity, przytulny i ciepły, śródziemnomorski klimat.",
-      metaTitle: "Plakat na ścianę Włoskie Światłocienie | Nowoczesne plakaty do druku",
-      metaDescription: "Odkryj plakat do pobrania 'Włoskie Światłocienie'. Ten autorski plakat do druku to fotografia z podróży do Włoch. Pobierz, wydrukuj lokalnie i stwórz ciepły klimat w swoim domu."
+      placementTips: "Ten kadr to idealny plakat do salonu do druku, wprowadzający przytulny klimat boho. Doskonale sprawdzi się jako plakat do sypialni czy biura, gdzie dominują naturalne kolory ziemi, beże i tekstylia z lnu. Wprowadza niesamowity, ciepły śródziemnomorski klimat.",
+      metaTitle: "Plakat na ścianę do samodzielnego druku – Włoskie Światłocienie",
+      metaDescription: "Autorski plakat do druku Włoskie Światłocienie. Ciepłe barwy, styl vintage i boho – idealny plakat do salonu do druku. Pobierz w 2 minuty i wydrukuj w formacie 50x70, A3 lub A4."
     }
   },
   {
     id: "IMG_3217",
     slug: "plakat-do-kuchni-wloskie-klimaty",
-    title: "Plakat do kuchni do druku – Włoskie Klimaty",
+    title: "Plakat do kuchni do druku – Włoskie Klimaty (Styl Vintage)",
     subtitle: "Kaktusy i surowa faktura rustykalnego muru",
     artist: "Karol",
     basePrice: 4900,
@@ -91,15 +91,15 @@ export const posters: Poster[] = [
     resolution: "3963x2972",
     productPage: {
       story: "To ujęcie to czysta definicja rustykalnego południa. Zatrzymałem się przy wejściu do starego domu, gdzie surowość i faktura wiekowych, drewnianych wrót oraz chropowatego muru w odcieniach beżu i ochry spotkała się z organicznymi kształtami kaktusów (w tym charakterystycznej opuncji) stojących w tradycyjnych, glinianych donicach. Kolorystyka tej kompozycji idealnie oddaje barwę rozgrzanej słońcem ziemi. To detal z podróży, który ma w sobie mnóstwo naturalnej, spokojnej energii.",
-      placementTips: "Doskonale sprawdzi się jako plakat do kuchni, jadalni lub jasnego aneksu kuchennego. Pięknie komponuje się z nowoczesnymi wnętrzami z elementami stylu boho, japandi lub rustykalnego, obok świeżych ziół i glinianych naczyń.",
-      metaTitle: "Plakat do kuchni Włoskie Klimaty | Nowoczesne plakaty do druku",
-      metaDescription: "Dodaj smaku swojej przestrzeni. Ten plakat do kuchni z motywem kaktusów i włoskiej terakoty to gotowy plakat do druku. Pobierz cyfrowy plik wysokiej jakości i wydrukuj w minutę."
+      placementTips: "Stylowe plakaty do kuchni do druku to najprostszy sposób na szybką metamorfozę serca Twojego domu. 'Włoskie Klimaty' wprowadzą do jadalni ciepło toskańskiego słońca i energię południowego poranka. Świetnie uzupełniają wnętrza w stylu retro, vintage i boho, szczególnie w połączeniu z innymi plakatami dekoracyjnymi.",
+      metaTitle: "Plakat do kuchni do druku Włoskie Klimaty – pliknaplakat.pl",
+      metaDescription: "Odkryj plakat do kuchni do druku „Włoskie Klimaty”. Autorskie zdjęcie w klimacie vintage i boho, idealne do jadalni lub kącika kawowego. Formaty A4, A3, 50x70. Pobierz teraz!"
     }
   },
   {
     id: "IMG_4134",
     slug: "plakat-nowoczesny-hiszpanski-balkon",
-    title: "Plakat nowoczesny do druku – Hiszpański Balkon",
+    title: "Nowoczesny plakat do salonu do druku – Hiszpański Balkon",
     subtitle: "Klasyczna architektura w mocnym słońcu",
     artist: "Karol",
     basePrice: 4900,
@@ -114,9 +114,9 @@ export const posters: Poster[] = [
     resolution: "2944x3926",
     productPage: {
       story: "Kadr uchwycony w południowej Hiszpanii podczas popołudniowej sjesty, gdy ulice zamierają, a główną rolę zaczyna grać ostre światło. Kontrast między idealnie jasną, geometryczną płaszczyzną ściany, głębokim cieniem a kunsztownymi detalami tradycyjnego, czarnego balkonu z kutego żelaza urzekł mnie od pierwszego wejrzenia. Spływająca, soczysta zieleń roślin przełamuje surowość formy. To ujęcie to ponadczasowa, klasyczna elegancja architektury południa Europy.",
-      placementTips: "Ten plakat nowoczesny idealnie pasuje do eleganckiego salonu, domowego biura, korytarza lub gabinetu. Wyrazista forma i wysoki kontrast świetnie wyglądają oprawione w czarne, wąskie lub minimalistyczne, aluminiowe ramy.",
-      metaTitle: "Plakat nowoczesny Hiszpański Balkon | Nowoczesne plakaty do druku",
-      metaDescription: "Stylowa architektura Hiszpanii na Twojej ścianie. Zamów autorski plakat do druku z motywem andaluzyjskiego balkonu. Wysoka jakość do samodzielnego wydruku w domu."
+      placementTips: "Ten nowoczesny plakat to idealny wybór do salonu, biura czy gabinetu. Autorskie plakaty do biura do druku z motywem europejskiej architektury dodają wnętrzu elegancji. Dzięki miejskiemu stylowi, te dekoracyjne plakaty świetnie komponują się z nowoczesnymi meblami, tworząc spójną całość.",
+      metaTitle: "Plakat do salonu i biura do druku Hiszpański Balkon – pliknaplakat.pl",
+      metaDescription: "Pobierz nowoczesny plakat do salonu i biura do druku „Hiszpański Balkon”. Autorskie zdjęcie w wysokiej rozdzielczości (A4, A3, 50x70). Nadaj wnętrzu wakacyjny, elegancki klimat!"
     }
   },
   {
@@ -137,9 +137,9 @@ export const posters: Poster[] = [
     resolution: "3896x2922",
     productPage: {
       story: "Uwielbiam detale, w których mniej znaczy więcej, a to zdjęcie to mój absolutny faworyt pod kątem czystej formy. Ten plakat to minimalistyczne studium światła – ostry, bardzo wyraźny, geometryczny zarys liści palmy rzucony przez południowe słońce na jasną wall-fakturę o ciepłym odcieniu off-white. Kompozycja zamyka się nowoczesnym elementem architektury u dołu. To niezwykle artystyczny kadr, bardzo popularny w nowoczesnych trendach wnętrzarskich.",
-      placementTips: "Typowy, poszukiwany plakat z Pinteresta – absolutny hit do sypialni lub salonu w stylu Japandi, loftowym lub modern organic. Najlepiej prezentuje się w surowej, jasnej drewnianej ramie (np. dąb) z dużym, eleganckim passe-partout.",
-      metaTitle: "Plakat minimalistyczny Egzotyczne Cienie | Nowoczesne plakaty do druku",
-      metaDescription: "Postaw na nowoczesny minimalizm. Ten plakat do druku to cyfrowy plik z unikalną grą świateł i cieni palmy. Idealny do sypialni i salonu w stylu Japandi."
+      placementTips: "Jeśli cenisz harmonię i szukasz subtelnych dekoracji, minimalistyczne plakaty do druku to najlepszy sposób na domowe wyciszenie. 'Egzotyczne Cienie' idealnie dopełnią surowe, nowoczesne przestrzenie w stylu Japandi czy warm minimalism. Ze względu na swoją kojącą formę, to najchętniej wybierany plakat do sypialni do druku. Równie genialnie sprawdzi się jako nowoczesny plakat do łazienki, tworząc atmosferę luksusowego SPA.",
+      metaTitle: "Plakat minimalistyczny do druku Egzotyczne Cienie – pliknaplakat.pl",
+      metaDescription: "Pobierz minimalistyczny plakat do sypialni i salonu do druku „Egzotyczne Cienie”. Autorska, botaniczna grafika w wysokiej rozdzielczości (A4, A3, 50x70). Stwórz oazę spokoju!"
     }
   },
   {
@@ -159,10 +159,10 @@ export const posters: Poster[] = [
     colors: ["#EADCC9", "#5F6A4D", "#D4A373"],
     resolution: "3947x2960",
     productPage: {
-      story: "To zdjęcie powstało, gdy po prostu położyłem się w cieniu wielkiej palmy podczas największego popołudniowego upału w nadmorskim miasteczku. Ciepły wiatr delikatnie poruszał potężnymi, dojrzałymi liśćmi, a słońce przedzierało się przez nie, nadając im naturalny, głęboki, oliwkowo-zielony odcień. Jasne, bezchmurne i niemal pastelowe niebo w tle potęguje wrażenie przestrzeni. Ten plakat botaniczny to czysta definicja letniej sjesty – natychmiast obniża tętno i przynoszą spokój.",
-      placementTips: "Świetny jako plakat botaniczny do salonu, sypialni czy domowego biura. Łagodne, oliwkowo-beżowe tony działają kojąco i relaksująco. Rewelacyjnie komponuje się w zestawie z innymi plakatami tworząc wakacyjną galerię ścienną.",
-      metaTitle: "Plakat botaniczny Palma w Słońcu | Nowoczesne plakaty do druku",
-      metaDescription: "Poczuj wieczne lato. Ten autorski plakat do druku przedstawia liście palmy w ciepłym słońcu. Pobierz plik w wysokiej rozdzielczości i odmień swój pokój w minutę."
+      story: "To zdjęcie powstało, gdy po prostu położyłem się w cieniu wielkiej palmy podczas największego popołudniowego upału w nadmorskim miasteczku. Ciepły wiatr delikatnie poruszał potężnymi, dojrzałymi liśćmi, a słońce przedzierało się przez nie, nadając im naturalny, głęboki, oliwkowo-zielony odcień. Jasne, bezchmurne i niemal pastelowe niebo w tle potęguje wrażenie przestrzeni. Ten plakat botaniczny to czysta definicja letniej sjesty – natychmiast obniża tętno i przynosi spokój.",
+      placementTips: "Roślinne motywy nigdy nie wychodzą z mody. Wybierając te plakaty botaniczne do druku, zyskujesz ponadczasową dekorację, która ożywi każdą przestrzeń. Palma w Słońcu to unikalny kadr stworzony z myślą o miłośnikach natury, idealny jako główny plakat do salonu do druku. Świetnie sprawdzi się również jako plakat do sypialni do druku, budując kojącą atmosferę 'urban jungle'.",
+      metaTitle: "Plakat botaniczny do druku Palma w Słońcu – pliknaplakat.pl",
+      metaDescription: "Pobierz plakat botaniczny do salonu i sypialni do druku „Palma w Słońcu”. Autorska fotografia natury w wysokiej rozdzielczości (A4, A3, 50x70). Stwórz swoją domową urban jungle!"
     }
   }
 ];
