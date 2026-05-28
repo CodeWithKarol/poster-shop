@@ -1,5 +1,7 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import Link from 'next/link';
+import { Product, WithContext } from 'schema-dts';
 import { getPosterBySlug } from '@/lib/posters';
 import { ProductGallery } from '@/components/shop/ProductGallery';
 import { PurchaseCard } from '@/components/shop/PurchaseCard';
@@ -53,15 +55,40 @@ export default async function ProductDetailPage({
   // Get title without prefix for breadcrumb
   const breadcrumbTitle = poster.title.split('–').pop()?.trim() || poster.title;
 
+  const jsonLd: WithContext<Product> = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: poster.title,
+    image: `https://www.pliknaplakat.pl${poster.imageUrl}`,
+    description: poster.productPage.metaDescription,
+    sku: poster.id,
+    brand: {
+      "@type": "Brand",
+      name: "Plik Na Plakat"
+    },
+    offers: {
+      "@type": "Offer",
+      url: `https://www.pliknaplakat.pl/plakat/${slug}`,
+      priceCurrency: "PLN",
+      price: (poster.basePrice / 100).toFixed(2),
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock"
+    }
+  };
+
   return (
     <main className="bg-background min-h-screen text-foreground">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Breadcrumbs & Header */}
       <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-8 md:py-12">
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground mb-8">
-          <a href="/" className="hover:text-foreground transition-colors">
+          <Link href="/" className="hover:text-foreground transition-colors">
             Sklep
-          </a>
+          </Link>
           <span>/</span>
           <span className="text-foreground font-semibold">{breadcrumbTitle}</span>
         </nav>
@@ -81,22 +108,22 @@ export default async function ProductDetailPage({
       </div>
 
       {/* Storytelling Section */}
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px]">
+      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-24">
         <ProductStory poster={poster} />
       </div>
 
       {/* Technical Info Section */}
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px]">
+      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-24 border-t border-border">
         <TechnicalInfo resolution={poster.resolution} />
       </div>
 
       {/* FAQ Section */}
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px]">
+      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-24 border-t border-border">
         <FAQSection />
       </div>
 
       {/* Related Products Section */}
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px]">
+      <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-24 border-t border-border">
         <RelatedProducts
           relatedSlugs={poster.relatedSlugs}
           currentSlug={poster.slug}

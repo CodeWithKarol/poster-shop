@@ -19,7 +19,7 @@ const faqItems = [
 
 export function FAQSection() {
   return (
-    <section className="border-t border-border py-16 md:py-24">
+    <section className="py-16 md:py-24">
       <h2 className="font-serif text-3xl md:text-4xl mb-12 text-foreground">
         Pytania i odpowiedzi
       </h2>
