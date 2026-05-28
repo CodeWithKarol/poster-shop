@@ -1,8 +1,9 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Product, WithContext } from 'schema-dts';
+import { Product, WithContext, FAQPage } from 'schema-dts';
 import { getPosterBySlug } from '@/lib/posters';
+import { productFaqItems } from '@/lib/faq';
 import { ProductGallery } from '@/components/shop/ProductGallery';
 import { PurchaseCard } from '@/components/shop/PurchaseCard';
 import { ProductStory } from '@/components/shop/ProductStory';
@@ -55,26 +56,40 @@ export default async function ProductDetailPage({
   // Get title without prefix for breadcrumb
   const breadcrumbTitle = poster.title.split('–').pop()?.trim() || poster.title;
 
-  const jsonLd: WithContext<Product> = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: poster.title,
-    image: `https://www.pliknaplakat.pl${poster.imageUrl}`,
-    description: poster.productPage.metaDescription,
-    sku: poster.id,
-    brand: {
-      "@type": "Brand",
-      name: "Plik Na Plakat"
+  const jsonLd: (WithContext<Product> | WithContext<FAQPage>)[] = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: poster.title,
+      image: `https://www.pliknaplakat.pl${poster.imageUrl}`,
+      description: poster.productPage.metaDescription,
+      sku: poster.id,
+      brand: {
+        "@type": "Brand",
+        name: "Plik Na Plakat"
+      },
+      offers: {
+        "@type": "Offer",
+        url: `https://www.pliknaplakat.pl/plakat/${slug}`,
+        priceCurrency: "PLN",
+        price: (poster.basePrice / 100).toFixed(2),
+        itemCondition: "https://schema.org/NewCondition",
+        availability: "https://schema.org/InStock"
+      }
     },
-    offers: {
-      "@type": "Offer",
-      url: `https://www.pliknaplakat.pl/plakat/${slug}`,
-      priceCurrency: "PLN",
-      price: (poster.basePrice / 100).toFixed(2),
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock"
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: productFaqItems.map(item => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer
+        }
+      }))
     }
-  };
+  ];
 
   return (
     <main className="bg-background min-h-screen text-foreground">
@@ -119,7 +134,7 @@ export default async function ProductDetailPage({
 
       {/* FAQ Section */}
       <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] py-16 md:py-24 border-t border-border">
-        <FAQSection />
+        <FAQSection items={productFaqItems} />
       </div>
 
       {/* Related Products Section */}
