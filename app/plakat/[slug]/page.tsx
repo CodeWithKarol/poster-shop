@@ -61,7 +61,7 @@ export default async function ProductDetailPage({
       "@context": "https://schema.org",
       "@type": "Product",
       name: poster.title,
-      image: `https://www.pliknaplakat.pl${poster.imageUrl}`,
+      image: `https://pliknaplakat.pl${poster.imageUrl}`,
       description: poster.productPage.metaDescription,
       sku: poster.id,
       brand: {
@@ -70,7 +70,7 @@ export default async function ProductDetailPage({
       },
       offers: {
         "@type": "Offer",
-        url: `https://www.pliknaplakat.pl/plakat/${slug}`,
+        url: `https://pliknaplakat.pl/plakat/${slug}`,
         priceCurrency: "PLN",
         price: (poster.basePrice / 100).toFixed(2),
         itemCondition: "https://schema.org/NewCondition",

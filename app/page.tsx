@@ -15,21 +15,21 @@ export default function Home() {
     {
       "@context": "https://schema.org",
       "@type": "Store",
-      "@id": "https://www.pliknaplakat.pl/#store",
+      "@id": "https://pliknaplakat.pl/#store",
       name: "Plik Na Plakat",
-      url: "https://www.pliknaplakat.pl/",
-      logo: "https://www.pliknaplakat.pl/images/logo.png",
-      image: "https://www.pliknaplakat.pl/images/glowna-reprezentacyjna.jpg",
-      description: "Sklep internetowy oferujący autorskie plakaty do druku na ścianę. Pobierz cyfrowe grafiki i zdjęcia w wysokiej rozdzielczości do samodzielnego wydruku w formatach A4, A3 i 50x70 cm. Szybka metamorfoza wnętrza w stylu minimalistycznym, boho i vintage.",
+      url: "https://pliknaplakat.pl/",
+      logo: "https://pliknaplakat.pl/images/logo.png",
+      image: "https://pliknaplakat.pl/images/glowna-reprezentacyjna.jpg",
+      description: "Sklep internetowy oferujacy autorskie plakaty do druku na sciane. Pobierz cyfrowe grafiki i zdjecia w wysokiej rozdzielczosci do samodzielnego wydruku w formatach A4, A3 i 50x70 cm. Szybka metamorfoza wnetrza w stylu minimalistycznym, boho i vintage.",
       priceRange: "PLN",
-      slogan: "Autorskie plakaty do samodzielnego druku – pobierz i wydrukuj w 2 minuty"
+      slogan: "Autorskie plakaty do samodzielnego druku - pobierz i wydrukuj w 2 minuty"
     } as WithContext<Store & { slogan: string }>,
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://www.pliknaplakat.pl/#website",
-      name: "Plik Na Plakat – Plakaty do druku",
-      url: "https://www.pliknaplakat.pl/"
+      "@id": "https://pliknaplakat.pl/#website",
+      name: "Plik Na Plakat - Plakaty do druku",
+      url: "https://pliknaplakat.pl/"
     },
     {
       "@context": "https://schema.org",
