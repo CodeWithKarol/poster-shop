@@ -1,5 +1,4 @@
 import { Geist_Mono, Inter, Playfair_Display } from "next/font/google"
-import { CartProvider } from "@/context/CartContext"
 import { Header } from "@/components/shop/Header"
 
 import "./globals.css"
@@ -15,8 +14,8 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: "Autorskie Plakaty do Druku na Ścianę – Sklep pliknaplakat.pl",
-  description: "Odkryj autorskie plakaty do samodzielnego druku w formatach A4, A3 i 50x70 cm. Pobierz cyfrowe grafiki i stwórz domową galerię ścienną w 2 minuty!",
+  title: "Autorskie Plakaty do Druku – Pobierz i Wydrukuj w 2 Minuty",
+  description: "Zapomnij o masowych grafikach ze stocku. Pobierz autorskie plakaty do samodzielnego druku (A4-70x100) i stwórz unikalną galerię ścienną natychmiast!",
 };
 
 export default function RootLayout({
@@ -32,16 +31,26 @@ export default function RootLayout({
     >
       <body className="bg-background text-foreground">
         <ThemeProvider>
-          <CartProvider>
             <Header />
             <main>{children}</main>
             
-             <footer className="border-t border-border py-8 md:py-12 mt-20 md:mt-32">
-               <div className="container mx-auto px-6 lg:px-8 max-w-[1400px] text-center text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                 <p>&copy; {new Date().getFullYear()} Plik Na Plakat. Autorskie Fotografie z Południa Europy.</p>
+             <footer className="border-t border-border py-12 md:py-16 bg-muted/50">
+               <div className="container mx-auto px-6 lg:px-8 max-w-[1200px] flex flex-col items-center justify-center gap-8">
+                 
+                 {/* SEO Anchor Text (Natural but optimized) */}
+                 <div className="max-w-2xl text-center">
+                   <p className="font-sans text-xs sm:text-sm leading-relaxed text-foreground/80 text-balance">
+                     Tworzymy unikalne, autorskie plakaty do druku, które stanowią idealną alternatywę dla powtarzalnych dekoracji ściennych. Nasza misja to dostarczanie sztuki cyfrowej premium wprost na Twój e-mail – bez czekania, bez ryzyka uszkodzenia w transporcie i w zgodzie z Twoim własnym stylem. Drukuj lokalnie, dekoruj z pasją.
+                   </p>
+                 </div>
+
+                 {/* Copyright */}
+                 <div className="text-center text-[10px] uppercase tracking-[0.2em] text-foreground/60 mt-4">
+                   <p>&copy; {new Date().getFullYear()} Plik Na Plakat. Wszelkie Prawa Zastrzeżone.</p>
+                 </div>
+                 
                </div>
              </footer>
-          </CartProvider>
         </ThemeProvider>
       </body>
     </html>

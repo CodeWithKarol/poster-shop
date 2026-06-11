@@ -5,6 +5,7 @@ export interface Poster {
   subtitle: string;
   artist: string;
   basePrice: number; // in grosze (e.g. 4900 = 49.00 PLN)
+  gumroadUrl: string; // The URL to the gumroad checkout product
   imageUrl: string;
   mockupUrl: string;
   gallery: string[];
@@ -34,6 +35,7 @@ export const posters: Poster[] = [
     subtitle: "Minimalistyczny detal z Cyklad",
     artist: "Karol",
     basePrice: 4900,
+    gumroadUrl: "https://gumroad.com",
     imageUrl: "/images/plakat-do-druku-salon-greckie-okno.webp",
     mockupUrl: "/mockups/wloskie-swiatlocienie-fasada-mockup.webp",
     gallery: ["/images/plakat-do-druku-salon-greckie-okno.webp"],
@@ -57,6 +59,7 @@ export const posters: Poster[] = [
     subtitle: "Gra cieni na rozgrzanej fasadzie",
     artist: "Karol",
     basePrice: 4900,
+    gumroadUrl: "https://gumroad.com",
     imageUrl: "/images/plakat-do-druku-sciana-wloskie-swiatlocienie.webp",
     mockupUrl: "/mockups/egzotyczne-cienie-palma-mockup.webp",
     gallery: ["/images/plakat-do-druku-sciana-wloskie-swiatlocienie.webp"],
@@ -80,6 +83,7 @@ export const posters: Poster[] = [
     subtitle: "Kaktusy i surowa faktura rustykalnego muru",
     artist: "Karol",
     basePrice: 4900,
+    gumroadUrl: "https://gumroad.com",
     imageUrl: "/images/plakat-do-druku-kuchnia-wloskie-klimaty.webp",
     mockupUrl: "/mockups/palma-w-sloncu-liscie-mockup.webp",
     gallery: ["/images/plakat-do-druku-kuchnia-wloskie-klimaty.webp"],
@@ -103,6 +107,7 @@ export const posters: Poster[] = [
     subtitle: "Klasyczna architektura w mocnym słońcu",
     artist: "Karol",
     basePrice: 4900,
+    gumroadUrl: "https://gumroad.com",
     imageUrl: "/images/plakat-do-druku-nowoczesny-hiszpanski-balkon.webp",
     mockupUrl: "/mockups/hiszpanski-balkon-architektura-mockup.webp",
     gallery: ["/images/plakat-do-druku-nowoczesny-hiszpanski-balkon.webp"],
@@ -126,6 +131,7 @@ export const posters: Poster[] = [
     subtitle: "Artystyczne studium światła i struktury",
     artist: "Karol",
     basePrice: 4900,
+    gumroadUrl: "https://gumroad.com",
     imageUrl: "/images/plakat-do-druku-minimalistyczny-egzotyczne-cienie.webp",
     mockupUrl: "/mockups/wloskie-kaktusy-terakota-mockup.webp",
     gallery: ["/images/plakat-do-druku-minimalistyczny-egzotyczne-cienie.webp"],
@@ -149,6 +155,7 @@ export const posters: Poster[] = [
     subtitle: "Letnia sjesta i wakacyjny luz w jednym kadrze",
     artist: "Karol",
     basePrice: 4900,
+    gumroadUrl: "https://gumroad.com",
     imageUrl: "/images/plakat-do-druku-botaniczny-palma-w-sloncu.webp",
     mockupUrl: "/mockups/greckie-okno-santorini-mockup.webp",
     gallery: ["/images/plakat-do-druku-botaniczny-palma-w-sloncu.webp"],
