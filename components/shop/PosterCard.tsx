@@ -4,6 +4,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
 interface PosterCardProps {
   title: string
@@ -14,16 +15,20 @@ interface PosterCardProps {
   slug: string
   aspectRatio?: "portrait" | "landscape" | "square"
   tags?: string[]
+  gumroadUrl?: string
 }
 
-export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, aspectRatio = "portrait", tags = [] }: PosterCardProps) {
+export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, aspectRatio = "portrait", tags = [], gumroadUrl }: PosterCardProps) {
   const [showMockup, setShowMockup] = React.useState(false);
 
   return (
-    <Link href={`/plakat/${slug}`} className="group flex flex-col gap-4 cursor-pointer block">
+    <div className="group flex flex-col gap-4">
       {/* Image Container with Zoom Effect & Image Toggle */}
-      <div 
-        className={`relative overflow-hidden bg-zinc-100 ${
+      <Link 
+        href={gumroadUrl || `https://gumroad.com`} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className={`relative overflow-hidden bg-zinc-100 block ${
           aspectRatio === "portrait" ? "aspect-[3/4]" : 
           aspectRatio === "landscape" ? "aspect-[4/3]" : "aspect-square"
         }`}
@@ -32,7 +37,7 @@ export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, as
       >
         <Image
           src={showMockup ? mockupUrl : imageUrl}
-          alt={showMockup ? `${title.replace("do druku", "").trim()} - wizualizacja we wnętrzu` : `${title.replace("do druku", "").trim()} - plakat do druku wysokiej jakości`}
+          alt={showMockup ? `Wizualizacja plakatu: ${title.replace("do druku", "").trim()}` : `Plakat: ${title.replace("do druku", "").trim()}`}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
@@ -40,9 +45,9 @@ export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, as
         
         {/* Hover Overlay with CTA */}
         <div className="hidden md:flex absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10 items-center justify-center opacity-0 group-hover:opacity-100">
-          <Button variant="default" className="translate-y-4 group-hover:translate-y-0 transition-all duration-500 ease-out font-sans uppercase tracking-[0.1em] text-xs px-8 py-6 rounded-none bg-black text-white hover:bg-zinc-800">
-            Zobacz szczegóły
-          </Button>
+          <div className="translate-y-4 group-hover:translate-y-0 transition-all duration-500 ease-out font-sans uppercase tracking-[0.1em] text-xs px-6 py-4 bg-background text-foreground flex items-center gap-2 font-semibold">
+            Kup na Gumroad <ArrowRight className="w-4 h-4" />
+          </div>
         </div>
 
         {/* Mockup Indicator Badge */}
@@ -51,7 +56,7 @@ export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, as
             Wizualizacja
           </div>
         )}
-      </div>
+      </Link>
 
       {/* Tags */}
       {tags.length > 0 && (
@@ -71,8 +76,17 @@ export function PosterCard({ title, artist, price, imageUrl, mockupUrl, slug, as
       <div className="flex flex-col gap-1 items-center text-center w-full px-2">
         <h3 className="font-serif text-xl md:text-2xl tracking-wide text-balance break-words max-w-full">{title}</h3>
         <p className="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-zinc-500 break-words max-w-full">{artist}</p>
-        <p className="font-sans text-sm mt-2">{price}</p>
+        <p className="font-sans text-sm mt-2 font-semibold">{price}</p>
       </div>
-    </Link>
+      
+      {/* Mobile CTA */}
+      <div className="md:hidden px-4 mt-2">
+        <Button asChild className="w-full rounded-none py-6 uppercase tracking-[0.15em] font-semibold text-xs flex items-center justify-center gap-2">
+          <Link href={gumroadUrl || `https://gumroad.com`} target="_blank" rel="noopener noreferrer">
+             Kup na Gumroad <ArrowRight className="w-4 h-4" />
+          </Link>
+        </Button>
+      </div>
+    </div>
   )
 }

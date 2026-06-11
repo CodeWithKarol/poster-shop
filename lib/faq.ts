@@ -24,19 +24,19 @@ export const productFaqItems: FAQItem[] = [
 
 export const homeFaqItems: FAQItem[] = [
   {
-    question: 'Czym są i jak działają plakaty do samodzielnego druku?',
-    answer: 'Oferowane w naszym sklepie plakaty do samodzielnego druku to w 100% cyfrowe, autorskie fotografie wysokiej rozdzielczości, które otrzymujesz natychmiast po opłaceniu zamówienia. To nowoczesna i ekologiczna alternatywa dla tradycyjnych dekoracji – oszczędzasz na kosztach wysyłki kurierskiej, a gotowe plakaty na ścianę do druku możesz mieć w swoim domu w zaledwie kilka minut.',
+    question: 'W jakim formacie otrzymam pliki?',
+    answer: 'Otrzymasz cyfrowe pliki premium o rozdzielczości 300 DPI, które gwarantują perfekcyjną ostrość obrazu.',
   },
   {
-    question: 'Do jakich wnętrz pasują autorskie plakaty z kolekcji Plik Na Plakat?',
-    answer: 'Nasze cyfrowe kadry zostały stworzone z myślą o miłośnikach ponadczasowego designu. W bazie znajdziesz idealne plakaty do druku do salonu, sypialni, przedpokoju, a nawet biura. Selekcja zdjęć idealnie wpisuje się w najmodniejsze trendy wnętrzarskie, takie jak minimalistyczne plakaty do druku, styl boho, japandi oraz ciepłe i nastrojowe plakaty retro do druku.',
+    question: 'W jak dużym formacie mogę wydrukować plakaty?',
+    answer: 'Nasze plakaty do druku zachowują idealną jakość w dowolnym formacie – od poręcznego formatu A4 aż po wielki format 70x100 cm.',
   },
   {
-    question: 'W jakich formatach mogę wydrukować pobrane pliki cyfrowe?',
-    answer: 'Wszystkie pliki dostarczamy w maksymalnej jakości, która pozwala na bezstratny wydruk w najpopularniejszych wymiarach ram ściennych. Bez problemu przygotujesz mniejszy plakat do druku A4, średni plakat do druku A3 oraz duży, przyciągający wzrok plakat do druku 50x70 cm. Pliki cyfrowe są w pełni zoptymalizowane pod standardowe plakaty do ramek do druku dostępne w popularnych sieciach handlowych.',
+    question: 'Gdzie i na jakim papierze najlepiej to wydrukować?',
+    answer: 'To banalnie proste. Prześlij plik do lokalnego fotolabu lub skorzystaj z dowolnej drukarni internetowej. Rekomendujemy wybór papieru matowego lub satynowego o gramaturze minimum 160g-180g.',
   },
   {
-    question: 'Czy mogę bezpłatnie przetestować jakość przed zakupem?',
-    answer: 'Wiemy, jak ważna jest perfekcyjna jakość wydruku, dlatego regularnie przygotowujemy dla naszych klientów darmowe próbki. Jeśli chcesz sprawdzić, jak nasze fotografie prezentują się na papierze, zapisz się na newsletter – w prezencie otrzymasz wybrany plakat do druku za darmo w formacie A4. To doskonały sposób, aby sprawdzić ostrość i odwzorowanie barw przed zakupem pełnej kolekcji.',
-  },
+    question: 'Dlaczego plik cyfrowy jest lepszy od gotowego plakatu?',
+    answer: 'Inwestujesz wyłącznie w autorską sztukę. Masz pełną swobodę wyboru rozmiaru oraz ram, a dodatkowo nie płacisz za marżę produkcyjną korporacji e-commerce oraz drogą przesyłkę kurierską.',
+  }
 ];
